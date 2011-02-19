@@ -1,0 +1,42 @@
+# Faction maintainers : krotop & FreeAsABeer
+
+
+
+# Credits :
+
+# # Arts : 
+mystic X the unknown : all current sprites
+
+# # Write ups : 
+Mist : faction background writing & unit descriptions
+FreeAsABeer : how to play guide
+krotop : faction background idea, unit descriptions
+
+# # Coding :
+--Ability :
+Mist : banding, arcane focus
+krotop : banding upkeep, terrain link, jinx
+--Features :
+FreeAsABeer : default only random faction
+
+# # Playtest and balance :
+FreeAsABeer
+mysticX_th_unknown
+krotop
+
+# # Translations :
+Torangan : original translation tools
+FreeAsABeer: translation tools inclusion
+Espreon : Shavian transliteration
+Feufochmar : French
+SteppenWolf : Polish
+
+
+
+# Additional credits :
+
+Mist (WML teaching, coding help, early design participation, and additional features)
+Niborelf (original sprites, creative fueling & coding help)
+zookeeper (WML teaching)
+Velensk (early playtesting & creative fueling)
+Melon (concept sketches)
