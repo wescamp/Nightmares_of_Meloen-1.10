@@ -9,8 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: nb\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: fur_IT\n"
 
 #. [era]: id=aoh_nightmares_of_meloen_devel_{NIGHTMARES_OF_MELOEN_DEVEL_VERSION}
 #: Nightmares_of_Meloen/devel/eras/aoh+nightmares.cfg:5
@@ -421,7 +420,7 @@ msgid ""
 "\n"
 "These unstable elementals are bits of Panarbori that get released after a "
 "rage tantrum, with the help of Meloen's power. They are as unpredictable as "
-"their father, rushing like small furies from a battlefield to another."
+"their father, rushing like small fur_ITies from a battlefield to another."
 msgstr ""
 
 #. [attack]: type=blade
@@ -1813,7 +1812,7 @@ msgid ""
 "<i>Unhatched</i> to clear the way for <i>Watchers</i> without taking too "
 "much retaliation. His own ranged attack can be of some help to weaken units "
 "that don't resist cold. Timing his attack is important because as soon as he "
-"has fired, you can't use his skirmisher for further support."
+"has fired, you can't use his skirmisher for fur_ITther support."
 msgstr ""
 
 #: Nightmares_of_Meloen/doc/how_to_play/nom_vs_loyalists.cfg:21
