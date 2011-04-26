@@ -1,0 +1,201 @@
+------------------------------------------------------------------------
+r8686 | faabumc | 2011-01-18 21:53:43 +0800 (Tue, 18 Jan 2011) | 1 line
+
+NoM: update version following release 1.0.0
+------------------------------------------------------------------------
+r8693 | faabumc | 2011-01-21 10:25:37 +0800 (Fri, 21 Jan 2011) | 1 line
+
+NoM I18N: add gaelic lingua (trunk only)
+------------------------------------------------------------------------
+r8762 | faabumc | 2011-02-09 22:35:39 +0800 (Wed, 09 Feb 2011) | 1 line
+
+NoM: update sprite for rash and reckless ones.
+------------------------------------------------------------------------
+r8832 | faabumc | 2011-02-19 20:23:35 +0800 (Sat, 19 Feb 2011) | 1 line
+
+NoM DVL: change id of jinx special so it doesn't mix with standard jinx
+------------------------------------------------------------------------
+r8851 | faabumc | 2011-02-20 15:00:13 +0800 (Sun, 20 Feb 2011) | 1 line
+
+NoM: Move traits to wesnoth-help textdomain.
+------------------------------------------------------------------------
+r8860 | faabumc | 2011-02-21 14:12:25 +0800 (Mon, 21 Feb 2011) | 1 line
+
+NoM DVL: Change angry line damage type to impact.
+------------------------------------------------------------------------
+r8884 | faabumc | 2011-02-24 22:02:08 +0800 (Thu, 24 Feb 2011) | 1 line
+
+NoM: fix problem in band that made the opponent's creepers count
+------------------------------------------------------------------------
+r8885 | faabumc | 2011-02-24 22:24:53 +0800 (Thu, 24 Feb 2011) | 1 line
+
+NoM DVL: merge back revision 8884.
+------------------------------------------------------------------------
+r8896 | faabumc | 2011-02-28 20:46:24 +0800 (Mon, 28 Feb 2011) | 1 line
+
+NoM DVL: change the angry line sprites in devel while keeping the old one in stable.
+------------------------------------------------------------------------
+r8897 | faabumc | 2011-02-28 20:50:05 +0800 (Mon, 28 Feb 2011) | 1 line
+
+NoM DVL: turn the angry line into a 3-strike unit.
+------------------------------------------------------------------------
+r8949 | faabumc | 2011-03-17 22:20:09 +0800 (Thu, 17 Mar 2011) | 1 line
+
+NoM: update HTP with nightmares from wiki.
+------------------------------------------------------------------------
+r8950 | faabumc | 2011-03-17 22:21:25 +0800 (Thu, 17 Mar 2011) | 1 line
+
+NoM: remove txt files from doc/how_to_play on cleanup.
+------------------------------------------------------------------------
+r8951 | faabumc | 2011-03-17 22:29:54 +0800 (Thu, 17 Mar 2011) | 1 line
+
+NoM: update documentation for tools/generateHTPMacros.py.
+------------------------------------------------------------------------
+r9064 | espreon | 2011-03-25 21:42:45 +0800 (Fri, 25 Mar 2011) | 1 line
+
+Made the arcane focus type translatable.
+------------------------------------------------------------------------
+r9065 | espreon | 2011-03-25 21:44:19 +0800 (Fri, 25 Mar 2011) | 1 line
+
+Added context provider to arcane focus's type string.
+------------------------------------------------------------------------
+r9068 | espreon | 2011-03-25 21:57:54 +0800 (Fri, 25 Mar 2011) | 1 line
+
+The plus isn't necessary.
+------------------------------------------------------------------------
+r9228 | faabumc | 2011-04-13 22:15:12 +0800 (Wed, 13 Apr 2011) | 1 line
+
+NoM: add ang and ang@latin linguas.
+------------------------------------------------------------------------
+r9229 | faabumc | 2011-04-13 22:18:51 +0800 (Wed, 13 Apr 2011) | 1 line
+
+NoM L10N: remove fuzzy attribute on translation after switching to utils/wmlxgettext.
+------------------------------------------------------------------------
+r9230 | faabumc | 2011-04-13 22:53:52 +0800 (Wed, 13 Apr 2011) | 1 line
+
+NoM I18N: fix clean target to handle filename with '@' inside.
+------------------------------------------------------------------------
+r9237 | faabumc | 2011-04-15 21:49:41 +0800 (Fri, 15 Apr 2011) | 1 line
+
+NoM i18n: use gender in translatable strings jinx and cursed.
+------------------------------------------------------------------------
+r9238 | faabumc | 2011-04-15 21:57:30 +0800 (Fri, 15 Apr 2011) | 1 line
+
+NoM l10n: update translation for female jinx and cursed.
+------------------------------------------------------------------------
+r9239 | faabumc | 2011-04-15 22:40:46 +0800 (Fri, 15 Apr 2011) | 1 line
+
+NoM DVL: Merging r6979 into 'devel'.
+------------------------------------------------------------------------
+r9240 | faabumc | 2011-04-15 22:54:37 +0800 (Fri, 15 Apr 2011) | 1 line
+
+NoM DVL: Merging r7035 into 'devel'
+------------------------------------------------------------------------
+r9241 | faabumc | 2011-04-15 23:03:31 +0800 (Fri, 15 Apr 2011) | 1 line
+
+NoM DVL: Merging r7036 through r7042 into 'devel'
+------------------------------------------------------------------------
+r9242 | faabumc | 2011-04-15 23:13:29 +0800 (Fri, 15 Apr 2011) | 1 line
+
+NoM DVL: Merging r7043 into 'devel'
+------------------------------------------------------------------------
+r9243 | faabumc | 2011-04-15 23:23:05 +0800 (Fri, 15 Apr 2011) | 1 line
+
+NoM DVL: Merging r7160 into 'devel'
+------------------------------------------------------------------------
+r9244 | faabumc | 2011-04-15 23:31:01 +0800 (Fri, 15 Apr 2011) | 1 line
+
+NoM DVL: Merging r7371 through r7372 into 'devel'
+------------------------------------------------------------------------
+r9245 | faabumc | 2011-04-15 23:38:26 +0800 (Fri, 15 Apr 2011) | 1 line
+
+NoM DVL: Merging r7563 into 'devel'
+------------------------------------------------------------------------
+r9246 | faabumc | 2011-04-15 23:51:20 +0800 (Fri, 15 Apr 2011) | 1 line
+
+NoM DVL: Merging r7644 into 'devel'
+------------------------------------------------------------------------
+r9247 | faabumc | 2011-04-16 00:04:00 +0800 (Sat, 16 Apr 2011) | 1 line
+
+NoM DVL: Merging r9064 into 'devel'
+------------------------------------------------------------------------
+r9256 | faabumc | 2011-04-16 12:05:44 +0800 (Sat, 16 Apr 2011) | 1 line
+
+NoN DVL: fix merge on translation for banding special.
+------------------------------------------------------------------------
+r9257 | faabumc | 2011-04-16 12:15:23 +0800 (Sat, 16 Apr 2011) | 1 line
+
+NoM DVL: use devel specific race for elemetals.
+------------------------------------------------------------------------
+r9258 | faabumc | 2011-04-16 12:17:47 +0800 (Sat, 16 Apr 2011) | 1 line
+
+NoM DVL: add elemental trait (undead-like immunity) to elementals.
+------------------------------------------------------------------------
+r9259 | faabumc | 2011-04-16 12:26:40 +0800 (Sat, 16 Apr 2011) | 1 line
+
+NoM DVL: use wesnoth default translation for immmune traits.
+------------------------------------------------------------------------
+r9272 | faabumc | 2011-04-16 17:25:07 +0800 (Sat, 16 Apr 2011) | 1 line
+
+NoM DVL: Merging r7203 through r7206 into 'devel'.
+------------------------------------------------------------------------
+r9273 | faabumc | 2011-04-16 17:36:36 +0800 (Sat, 16 Apr 2011) | 1 line
+
+NoM DVL: Merging r7752 into 'devel'.
+------------------------------------------------------------------------
+r9274 | faabumc | 2011-04-16 17:41:39 +0800 (Sat, 16 Apr 2011) | 1 line
+
+NoM DVL: update revision number in devel/SYNCHRO.
+------------------------------------------------------------------------
+r9279 | faabumc | 2011-04-16 20:34:31 +0800 (Sat, 16 Apr 2011) | 1 line
+
+NoM DVL: use elemental trait from default.
+------------------------------------------------------------------------
+r9281 | faabumc | 2011-04-16 22:06:52 +0800 (Sat, 16 Apr 2011) | 1 line
+
+NoM DVL: remove egg shell attack icon from rash one.
+------------------------------------------------------------------------
+r9283 | faabumc | 2011-04-17 12:25:26 +0800 (Sun, 17 Apr 2011) | 1 line
+
+NoM DVL: remove slow special from the elementals.
+------------------------------------------------------------------------
+r9284 | faabumc | 2011-04-17 12:27:53 +0800 (Sun, 17 Apr 2011) | 1 line
+
+NoM DVL: add one damage per level on bramble and ice forms of elemental.
+------------------------------------------------------------------------
+r9285 | faabumc | 2011-04-17 23:25:15 +0800 (Sun, 17 Apr 2011) | 1 line
+
+NoM DVL: set type to random in faction definition.
+------------------------------------------------------------------------
+r9316 | faabumc | 2011-04-19 17:18:18 +0800 (Tue, 19 Apr 2011) | 1 line
+
+NoM ALL: fix macro curse for terrain with no defense.
+------------------------------------------------------------------------
+r9319 | faabumc | 2011-04-19 23:27:08 +0800 (Tue, 19 Apr 2011) | 1 line
+
+NoM ALL: add condition for use of curse image status.
+------------------------------------------------------------------------
+r9352 | faabumc | 2011-04-22 21:01:47 +0800 (Fri, 22 Apr 2011) | 1 line
+
+NoM: commit missing change (display cursed icon).
+------------------------------------------------------------------------
+r9353 | faabumc | 2011-04-22 22:29:57 +0800 (Fri, 22 Apr 2011) | 1 line
+
+NoM DVL: remove slow range attack from the elemental.
+------------------------------------------------------------------------
+r9354 | faabumc | 2011-04-22 22:39:21 +0800 (Fri, 22 Apr 2011) | 1 line
+
+NoM DVL: add 2 of crush damage from beamble forms of elementals.
+------------------------------------------------------------------------
+r9358 | faabumc | 2011-04-23 14:45:46 +0800 (Sat, 23 Apr 2011) | 1 line
+
+NoM ALL: use random leader by default when picking up the faction.
+------------------------------------------------------------------------
+r9359 | faabumc | 2011-04-23 15:20:36 +0800 (Sat, 23 Apr 2011) | 1 line
+
+NoM DVL: add new sprites for Angry and Raging Ones.
+------------------------------------------------------------------------
+r9360 | faabumc | 2011-04-23 15:28:24 +0800 (Sat, 23 Apr 2011) | 1 line
+
+NoM I18N: update message list.
+------------------------------------------------------------------------
