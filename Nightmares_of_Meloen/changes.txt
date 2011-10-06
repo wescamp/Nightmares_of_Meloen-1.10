@@ -1,9 +1,0 @@
-NoMDEVEL: fix filter in regeneration healing curse logic.
-NoM: move the reveal unstable variations logic into a prestart event (trunk only).utils/utility_menu.cfg
-NoM: move the reveal unstable variations logic into a prestart event (trunk only) [missing file].
-NoM: list the tailor made AI when creating a game with AI controller (trunk only).
-NoM: add first version of lua AI (not hooked as doesn't work yet)
-NoM: usable version of the lua AI for jinx special handling (attack only)
-NoM DEV: tentative removal of the berserk special on the angry line. Changes in XP.
-NoM DEV: set Angry One as possible leader in devel.
-NoM l10n: update french translation.
