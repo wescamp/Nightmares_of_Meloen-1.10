@@ -1,0 +1,28 @@
+***************
+*** 5,17 ****
+  #enddef
+  # Elemental race definition
+  [race]
+-     id=DEVEL_elemental
+      name= _ "race^Elemental"
+      plural_name=_ "race plural^Elementals"
+      num_traits=2
+      undead_variation=null
+      ignore_global_traits=yes
+-     {DEVEL_TRAIT_ELEMENTAL}
+      {DEVEL_TRAIT_SAPPHIRE}
+      {DEVEL_TRAIT_DIAMOND}
+      {DEVEL_TRAIT_EMERALD}
+--- 5,16 ----
+  #enddef
+  # Elemental race definition
+  [race]
++     id=elemental
+      name= _ "race^Elemental"
+      plural_name=_ "race plural^Elementals"
+      num_traits=2
+      undead_variation=null
+      ignore_global_traits=yes
+      {DEVEL_TRAIT_SAPPHIRE}
+      {DEVEL_TRAIT_DIAMOND}
+      {DEVEL_TRAIT_EMERALD}
