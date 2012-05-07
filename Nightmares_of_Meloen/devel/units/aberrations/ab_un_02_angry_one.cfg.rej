@@ -1,0 +1,12 @@
+--- units/aberrations/ab_un_02_angry_one.cfg	(revision 14203)
++++ units/aberrations/ab_un_02_angry_one.cfg	(working copy)
+@@ -17,7 +17,8 @@
+     usage="fighter"
+     movement_type="nom_egg"
+ 
+-    description= _ "These hideous monsters came from the very first fear of Meloen: to mother a physically or mentally ill child. Not quite formed yet, the unhatched partly breaks the shell with its powerful legs, then its naturally agressive instinct guide it to charge and complete its hatch onto foes."+{SPECIAL_NOTES}+{SPECIAL_NOTES_BERSERK}
++    description= _ "King Dowrein I, Memoirs of a mercenary:
++'They were bad enough still in the shell. Once hatched, the especially aggressive ones attacked without pause, hurling themselves at us again and again, battling unto death.'"+{SPECIAL_NOTES}+{SPECIAL_NOTES_BERSERK}
+ 
+     die_sound="hiss-die.wav"
+     image="units/angry_berserk_one.png"

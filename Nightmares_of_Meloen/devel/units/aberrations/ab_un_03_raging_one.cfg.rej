@@ -1,0 +1,14 @@
+--- units/aberrations/ab_un_03_raging_one.cfg	(revision 14203)
++++ units/aberrations/ab_un_03_raging_one.cfg	(working copy)
+@@ -17,7 +17,10 @@
+     movement_type="nom_egg"
+     usage="fighter"
+ 
+-    description= _ "These hideous monsters came from the very first fear of Meloen: to mother a physically or mentally ill child. Not quite formed yet, the unhatched partly breaks the shell with its powerful legs, then its naturally agressive instinct guide it to charge and complete its hatch onto foes."+{SPECIAL_NOTES}+{SPECIAL_NOTES_BERSERK}
++    description= _ "Excerpt from a conversation between Lieutenant Artingale and Sage Hogene:
++'- Hogene, I often thank the Gods that the biggest Ragers are so very rare.
++- Are they so much more dangerous than the other unnatural denizens of the forest, my Lord?
++- Well, they kill you honestly, which is more than you can say for most. But the bloody smears they leave in their wake haunt my dreams.'"+{SPECIAL_NOTES}+{SPECIAL_NOTES_BERSERK}
+ 
+     die_sound="hiss-die.wav"
+     image="units/raging_berserk_one.png"

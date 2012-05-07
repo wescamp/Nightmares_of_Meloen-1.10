@@ -11,6 +11,7 @@ mystic X the unknown : all current sprites
 Mist : faction background writing & unit descriptions
 FreeAsABeer : how to play guide
 krotop : faction background idea, unit descriptions
+Nothsa (Ashton Shortridge): Improved English in descriptions and missing descriptions
 
 # # Coding :
 --Ability :
@@ -30,7 +31,7 @@ FreeAsABeer: translation tools inclusion
 Espreon : Shavian transliteration
 Feufochmar : French
 SteppenWolf : Polish
-
+BioHazardX: Italian
 
 
 # Additional credits :
@@ -40,3 +41,4 @@ Niborelf (original sprites, creative fueling & coding help)
 zookeeper (WML teaching)
 Velensk (early playtesting & creative fueling)
 Melon (concept sketches)
+

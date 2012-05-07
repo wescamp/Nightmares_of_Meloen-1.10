@@ -1,0 +1,504 @@
+Index: units/nightmares/ni_lt_03_death_spectre.cfg
+===================================================================
+--- units/nightmares/ni_lt_03_death_spectre.cfg	(revision 14203)
++++ units/nightmares/ni_lt_03_death_spectre.cfg	(working copy)
+@@ -17,7 +17,7 @@
+     movement_type="nom_darkness"
+     usage="fighter"
+ 
+-    description= _ "Noble Ordwin, Touched by the spectre:
++    description= _ "Noble Ordwin, Touched by the Spectre:
+ 'What is to see, in the night of their mantle
+ That fascinates us and makes us pass way
+ Without a complaint in the midst of the battle?
+Index: units/nightmares/ni_hd_01_howling_darkness.cfg
+===================================================================
+--- units/nightmares/ni_hd_01_howling_darkness.cfg	(revision 14203)
++++ units/nightmares/ni_hd_01_howling_darkness.cfg	(working copy)
+@@ -17,7 +17,7 @@
+     advances_to="Cloud of Gloom"
+     usage="archer"
+ 
+-    description= _ "incomplete"+{SPECIAL_NOTES}+{SPECIAL_NOTES_SKIRMISHER}+{SPECIAL_NOTES_HORROR}
++    description= _ "Meloen became obsessed with the fragility of life and the randomness of fate. Terrible visions beset her: an infant grown breathless and cold in the crib, its sleeping parents an arm's length away, a child fallen in a cistern, unable to swim or call for aid, a viper coiled in the flowerbed. The future, veiled in uncertainty, seemed to hold only the blackest of promises. As Meloen raged at these visions, the Howling Darkness coalesced."+{SPECIAL_NOTES}+{SPECIAL_NOTES_SKIRMISHER}+{SPECIAL_NOTES_HORROR}
+ 
+     die_sound="wail-long.wav"
+     image="units/howling_darkness.png"
+Index: units/nightmares/ni_lt_01_life_thief.cfg
+===================================================================
+--- units/nightmares/ni_lt_01_life_thief.cfg	(revision 14203)
++++ units/nightmares/ni_lt_01_life_thief.cfg	(working copy)
+@@ -17,9 +17,10 @@
+     movement_type="nom_darkness"
+     usage="fighter"
+ 
+-    description= _ "In her moments of happiness, Meloen enjoyed gazing at butterflies. In these rare moments of meditation she also got conscious of how much they were short lived and realised her own condition of life.
+-During a sleep, while she was pregnant, Meloen saw a spooky spirit shaped like a butterfly, floating above her and the child she was holding, and immediately identified the spirit as an underling of death itself, warning her that she wouldn't live long enough to see her child growth. There was little time then, before spectres of death spread into the forest."+{SPECIAL_NOTES}+{SPECIAL_NOTES_DRAIN}
++    description= _ "In her moments of happiness, Meloen enjoyed gazing at butterflies. In these rare moments of meditation she became conscious of their short lives and felt her own mortality deeply.
+ 
++While pregnant, Meloen dreamed of an eerie spirit shaped like a butterfly, floating above her and the child she was holding. She immediately identified the spirit as an underling of death itself, warning her that she wouldn't live long enough to see her unborn child grow. There was little time then, before spectres of death spread into the forest."+{SPECIAL_NOTES}+{SPECIAL_NOTES_DRAIN}
++
+     die_sound="wail-long.wav"
+     image="units/life_thief.png"
+     ellipse="misc/ellipse"
+Index: units/nightmares/ni_hd_03_eternal_night.cfg
+===================================================================
+--- units/nightmares/ni_hd_03_eternal_night.cfg	(revision 14203)
++++ units/nightmares/ni_hd_03_eternal_night.cfg	(working copy)
+@@ -18,7 +18,8 @@
+     usage="archer"
+     {AMLA_DEFAULT}
+ 
+-    description= _ "incomplete"+{SPECIAL_NOTES}+{SPECIAL_NOTES_SKIRMISHER}+{SPECIAL_NOTES_MAGICAL}+{SPECIAL_NOTES_HORROR}
++    description= _ "King Dowrein I, Memoirs of a mercenary:
++'Though dawn should have come, the darkness did not lift, nor would it ever for many of my companions. It had decended on us like the shroud of some dreadful reaver, drifting past our unsuspecting pickets and achieving total surprise. Over the baleful howling of our foe could be heard the hopeless screams of its victims. I dropped my useless sword and fled for the river and its doubtful safety.'"+{SPECIAL_NOTES}+{SPECIAL_NOTES_SKIRMISHER}+{SPECIAL_NOTES_MAGICAL}+{SPECIAL_NOTES_HORROR}
+ 
+     die_sound="wail-long.wav"
+     image="units/eternal_night.png"
+Index: units/nightmares/ni_hd_02_cloud_of_gloom.cfg
+===================================================================
+--- units/nightmares/ni_hd_02_cloud_of_gloom.cfg	(revision 14203)
++++ units/nightmares/ni_hd_02_cloud_of_gloom.cfg	(working copy)
+@@ -17,7 +17,8 @@
+     advances_to="Eternal Night"
+     usage="archer"
+ 
+-    description= _ "incomplete"+{SPECIAL_NOTES}+{SPECIAL_NOTES_SKIRMISHER}+{SPECIAL_NOTES_MAGICAL}+{SPECIAL_NOTES_HORROR}
++    description= _ "King Dowrein I, Memoirs of a mercenary:
++'The moon was long set when we heard the wailing again, a terrible sound that seemed to come from everywhere, promising infinite pain. But this time we spied it racing towards us through the trees... there among the darkest shadows, something blacker yet, like a hole in the night.'"+{SPECIAL_NOTES}+{SPECIAL_NOTES_SKIRMISHER}+{SPECIAL_NOTES_MAGICAL}+{SPECIAL_NOTES_HORROR}
+ 
+     die_sound="wail-long.wav"
+     image="units/cloud_of_gloom.png"
+Index: units/nightmares/ni_lt_02_soul_snatcher.cfg
+===================================================================
+--- units/nightmares/ni_lt_02_soul_snatcher.cfg	(revision 14203)
++++ units/nightmares/ni_lt_02_soul_snatcher.cfg	(working copy)
+@@ -18,9 +18,9 @@
+     usage="fighter"
+ 
+     description= _ "King Dowrein I, Memoirs of a mercenary:
+-'I had seen this scene a hundred times, the quiet walk of the merchants, the soldiers narrating their exploit of the day before, then the anxiety of the horses, the stop of the march and all eyes and hears looking for the smallest sign. And the attack of those demonic creatures.
++'I have experienced this scene a hundred times, as one merchant caravan or another wound its way along the verge of the deep woods: the quiet conversations of the wagoneers, the soldiers boastfully narrating their exploits of the day before, then the sudden anxiety of the horses, their fearful whinnying and rearing. Wagons and men alike stopped, all eyes and hears searching for the smallest sign. And then, the sudden, brutal attack of those demonic creatures.
+ 
+-But as used as we were to drive them back to that cursed forest, that fear remained the same each with each battle. The fear to lose our mind and soul to one of them, and ultimately, our life.'"+{SPECIAL_NOTES}+{SPECIAL_NOTES_DRAIN}
++But though with time and hard-won experience we became skilled at driving them back to that cursed forest, our fear remained the same with each battle: the fear of losing our minds and souls, and ultimately, our lives.'"+{SPECIAL_NOTES}+{SPECIAL_NOTES_DRAIN}
+ 
+     die_sound="wail-long.wav"
+     image="units/soul_snatcher.png"
+Index: units/insects/in_cr_00_creepers.cfg
+===================================================================
+--- units/insects/in_cr_00_creepers.cfg	(revision 14203)
++++ units/insects/in_cr_00_creepers.cfg	(working copy)
+@@ -1,6 +1,13 @@
+ #textdomain wesnoth-Nightmares_of_Meloen
+ 
+ # Insects. Creepers, lvl0.
++#define INSECT_COMMON_DESCRIPTION
++_ "Lieutenant Artingale:
++'These degenerated insects band together in large swarms to wreck havoc on living beings in an irrationally aggressive way. An increasing number of reports from the outlying farmsteads describe clouds of bees behaving in this abnormal manner. Some devilry must lie behind it, and I know which unlucky company will be ordered to investigate.'
++
++Note: Isolated creepers can do but little harm, while large bands can pose a threat to any creature."
++#enddef
++
+ [unit_type]
+     id="Creepers"
+     name= _ "Creepers"
+@@ -17,10 +24,8 @@
+     advances_to="null"
+     usage="fighter"
+ 
+-    description= _ "These degenerated insects group with each other to raid living beings in an irrationally aggressive way. A significant amount of reports from farmers states about clouds of bees wreaking havoc into their sheptels.
++    description= {INSECT_COMMON_DESCRIPTION}
+ 
+-Note: Isolated creepers are no harm, but large bands can be a threat to any creatures."
+-
+     die_sound=hiss-die.wav
+     image="units/creepers.png"
+     ellipse="misc/ellipse-nozoc"
+@@ -96,10 +101,8 @@
+         advances_to="null"
+         usage="fighter"
+ 
+-        description= _ "These degenerated insects group with each other to raid living beings in an irrationally aggressive way. A significant amount of reports from farmers states about clouds of bees wreaking havoc into their sheptels.
++        description= {INSECT_COMMON_DESCRIPTION}
+ 
+-Note: Isolated creepers are no harm, but large bands can be a threat to any creatures."
+-
+         die_sound=hiss-die.wav
+         image="units/experienced_creepers.png"
+         ellipse="misc/ellipse-nozoc"
+@@ -146,10 +149,8 @@
+         advances_to="null"
+         usage="fighter"
+ 
+-        description= _ "These degenerated insects group with each other to raid living beings in an irrationally aggressive way. A significant amount of reports from farmers states about clouds of bees wreaking havoc into their sheptels.
++        description= {INSECT_COMMON_DESCRIPTION}
+ 
+-Note: Isolated creepers are no harm, but large bands can be a threat to any creatures."
+-
+         die_sound=hiss-die.wav
+         image="units/veteran_creepers.png"
+         ellipse="misc/ellipse-nozoc"
+Index: units/aberrations/ab_sw_01_scornful_watcher.cfg
+===================================================================
+--- units/aberrations/ab_sw_01_scornful_watcher.cfg	(revision 14203)
++++ units/aberrations/ab_sw_01_scornful_watcher.cfg	(working copy)
+@@ -17,7 +17,7 @@
+     movement_type="nom_eye"
+     usage="archer"
+ 
+-    description= _ "Bad dreams after bad dreams, growing to nightmares, Meloen fell into a paranoid dementia, thinking to be judged for her misdeeds and revived her childhood, when she was afraid of the way people looked at her. The eyes of disdain were born from this fear and now attack mentally their victims, turning their complexes into physical sufferings."+{SPECIAL_NOTES}+{SPECIAL_NOTES_ARCANE_FOCUS}
++    description= _ "Bad dream after bad dream, growing into nightmares, Meloen fell into a paranoid dementia, thinking to be judged for her misdeeds. She recalled her childhood, when she was afraid of how people looked at her. The Scornful Watchers were born from this fear and now mentally attack their victims, turning their complexes into physical sufferings."+{SPECIAL_NOTES}+{SPECIAL_NOTES_ARCANE_FOCUS}
+ 
+     die_sound="ghoul-hit.wav"
+     image="units/scornful_watcher.png"
+Index: units/aberrations/ab_sw_03_inquisitor.cfg
+===================================================================
+--- units/aberrations/ab_sw_03_inquisitor.cfg	(revision 14203)
++++ units/aberrations/ab_sw_03_inquisitor.cfg	(working copy)
+@@ -17,7 +17,8 @@
+     movement_type="nom_eye"
+     usage="archer"
+ 
+-    description= _ "Bad dreams after bad dreams, growing to nightmares, Meloen fell into a paranoid dementia, thinking to be judged for her misdeeds and revived her childhood, when she was afraid of the way people looked at her. The eyes of disdain were born from this fear and now attack mentally their victims, turning their complexes into physical sufferings."+{SPECIAL_NOTES}+{SPECIAL_NOTES_ARCANE_FOCUS}
++    description= _ "King Dowrein I, Memoirs of a mercenary:
++'I could feel the heat of the creature's gaze, even through my shield. It's disdain for me was like a crushing physical presence. Poor Thornton on my left took the full force of the attack, and though I risked my own life dragging him back to the village, the healers could do nothing to save the wretch.'"+{SPECIAL_NOTES}+{SPECIAL_NOTES_ARCANE_FOCUS}
+ 
+     die_sound="ghoul-hit.wav"
+     image="units/inquisitor.png"
+Index: units/aberrations/ab_sw_02_spiteful_watcher.cfg
+===================================================================
+--- units/aberrations/ab_sw_02_spiteful_watcher.cfg	(revision 14203)
++++ units/aberrations/ab_sw_02_spiteful_watcher.cfg	(working copy)
+@@ -17,7 +17,8 @@
+     movement_type="nom_eye"
+     usage="archer"
+ 
+-    description= _ "Bad dreams after bad dreams, growing to nightmares, Meloen fell into a paranoid dementia, thinking to be judged for her misdeeds and revived her childhood, when she was afraid of the way people looked at her. The eyes of disdain were born from this fear and now attack mentally their victims, turning their complexes into physical sufferings."+{SPECIAL_NOTES}+{SPECIAL_NOTES_ARCANE_FOCUS}
++    description= _ "Silver Mage Norsesh, Arcane Interactions - Analysis and Theorisation:
++'Intriguingly, the mental focus necessary to achieve substantial arcane effects is not without its liabilities. I hypothesize that the channels we develop in our minds are somehow accessible by certain external forces. The case of the Spiteful Watcher, an arcane creation to be found (at great peril to the finder) in southern Wesnoth, supports this hypothesis. These large, aggressive Watchers posess mental attacks that are especially dangerous for mages.'"+{SPECIAL_NOTES}+{SPECIAL_NOTES_ARCANE_FOCUS}
+ 
+     die_sound="ghoul-hit.wav"
+     image="units/spiteful_watcher.png"
+Index: units/aberrations/ab_un_03b_reckless_one.cfg
+===================================================================
+--- units/aberrations/ab_un_03b_reckless_one.cfg	(revision 14203)
++++ units/aberrations/ab_un_03b_reckless_one.cfg	(working copy)
+@@ -17,7 +17,7 @@
+     movement_type="nom_egg"
+     usage="fighter"
+ 
+-    description= _ "These hideous monsters came from the very first fear of Meloen: to mother a physically or mentally ill child. Not quite formed yet, the unhatched partly breaks the shell with its powerful legs, then its naturally agressive instinct guide it to charge and complete its hatch onto foes."+{SPECIAL_NOTES}+{SPECIAL_NOTES_CHARGE}
++    description= _ "Dazed, Artingale staggered across the clearing, stepping over the shattered bones and dismembered limbs that littered the ground. The creature had burst suddenly from the undergrowth, giving his men no time to prepare a defense. In a matter of moments a third of the company had been mashed into paste, and the beast had raged off down the trail, evidently unconcerned with the terrible wounds it had taken in return."+{SPECIAL_NOTES}+{SPECIAL_NOTES_CHARGE}
+ 
+     die_sound="yeti-die.ogg"
+     image="units/reckless_one.png"
+Index: units/aberrations/ab_un_02b_rash_one.cfg
+===================================================================
+--- units/aberrations/ab_un_02b_rash_one.cfg	(revision 14203)
++++ units/aberrations/ab_un_02b_rash_one.cfg	(working copy)
+@@ -17,7 +17,8 @@
+     movement_type="nom_egg"
+     usage="fighter"
+ 
+-    description= _ "These hideous monsters came from the very first fear of Meloen: to mother a physically or mentally ill child. Not quite formed yet, the unhatched partly breaks the shell with its powerful legs, then its naturally agressive instinct guide it to charge and complete its hatch onto foes."+{SPECIAL_NOTES}+{SPECIAL_NOTES_CHARGE}
++    description= _ "King Dowrein I, Memoirs of a mercenary:
++'They're bad enough still in the shell. Once hatched, the particularly nasty-tempered ones could knock a man clean off the saddle in one blow. On more than one occasion the ugly brutes used their speed to get into our rear, where they did terrible damage to our injured soldiers.'"+{SPECIAL_NOTES}+{SPECIAL_NOTES_CHARGE}
+ 
+     die_sound="yeti-die.ogg"
+     image="units/rash_one.png"
+Index: units/aberrations/ab_un_02_angry_one.cfg
+===================================================================
+--- units/aberrations/ab_un_02_angry_one.cfg	(revision 14203)
++++ units/aberrations/ab_un_02_angry_one.cfg	(working copy)
+@@ -17,7 +17,8 @@
+     usage="fighter"
+     movement_type="nom_egg"
+ 
+-    description= _ "These hideous monsters came from the very first fear of Meloen: to mother a physically or mentally ill child. Not quite formed yet, the unhatched partly breaks the shell with its powerful legs, then its naturally agressive instinct guide it to charge and complete its hatch onto foes."+{SPECIAL_NOTES}+{SPECIAL_NOTES_BERSERK}
++    description= _ "King Dowrein I, Memoirs of a mercenary:
++'They were bad enough still in the shell. Once hatched, the especially aggressive ones attacked without pause, hurling themselves at us again and again, battling unto death.'"+{SPECIAL_NOTES}+{SPECIAL_NOTES_BERSERK}
+ 
+     die_sound="hiss-die.wav"
+     image="units/angry_berserk_one.png"
+Index: units/aberrations/ab_un_01_unhatched.cfg
+===================================================================
+--- units/aberrations/ab_un_01_unhatched.cfg	(revision 14203)
++++ units/aberrations/ab_un_01_unhatched.cfg	(working copy)
+@@ -17,7 +17,7 @@
+     advances_to="Angry One, Rash One"
+     usage="fighter"
+ 
+-    description= _ "These hideous monsters came from the very first fear of Meloen: to mother a physically or mentally ill child. Not quite formed yet, the unhatched partly breaks the shell with its powerful legs, then its naturally agressive instinct guide it to charge and complete its hatch onto foes."+{SPECIAL_NOTES}+{SPECIAL_NOTES_CHARGE}
++    description= _ "These hideous monsters came from the very first fear of Meloen: to mother a physically or mentally ill child. Not quite formed yet, the unhatched partly breaks the shell with its powerful legs, then its naturally agressive instinct guides it to complete its hatch by charging into foes."+{SPECIAL_NOTES}+{SPECIAL_NOTES_CHARGE}
+ 
+     die_sound="skeleton-die-1.ogg"
+     image="units/unhatched.png"
+Index: units/aberrations/ab_bc_01_black_cat.cfg
+===================================================================
+--- units/aberrations/ab_bc_01_black_cat.cfg	(revision 14203)
++++ units/aberrations/ab_bc_01_black_cat.cfg	(working copy)
+@@ -17,8 +17,8 @@
+     advances_to="Jinx Beast"
+     usage="mixed fighter"
+ 
+-    description=_ "Fate can be treacherous at times, as quick to offer you a present as to turn it into a burden. When Meloen succeeded in brushing the knowlegde of magic's origin with the tip of her mind during a short lap of supreme lucidity, she fused with her environment, against all odds. But her first doubts opened the door to more self-doubt and she started to think that luck only was responsible for these events, and not her determination and work. Or rather, she thought that misfortune played with her life, amusing itself in putting her in a nightmare.
+-Black cats are simple forest creatures that have turned into a hideous chimera by Meloen's thoughts and, although no one knows what kind of magic is behind their power, it seems that any creature that cross their evil eyes is stroke by misfortune."+{SPECIAL_NOTES}+{SPECIAL_NOTES_ARCANE}+{SPECIAL_NOTES_MAGICAL}
++    description=_ "Fate can be treacherous at times, as quick to offer you a present as to turn it into a burden. When Meloen succeeded in brushing the knowledge of magic's origin with the tip of her mind during a short burst of supreme lucidity, she fused with her environment, against all odds. But her innate insecurity led to ever greater self-doubt and she speculated that luck only was responsible for these events, and not her determination and work. Indeed, she came to believe that misfortune toyed with her life, amusing itself by putting her in a nightmare.
++Black cats are simple forest creatures that have turned into hideous chimeras through Meloen's dark thoughts. Although no one knows what kind of magic is behind their power, it seems that any creature that crosses their evil eyes is struck by misfortune."+{SPECIAL_NOTES}+{SPECIAL_NOTES_ARCANE}+{SPECIAL_NOTES_MAGICAL}
+ 
+     die_sound="cat-die.ogg"
+     image="units/black_cat.png"
+Index: units/aberrations/ab_bc_03_calamity.cfg
+===================================================================
+--- units/aberrations/ab_bc_03_calamity.cfg	(revision 14203)
++++ units/aberrations/ab_bc_03_calamity.cfg	(working copy)
+@@ -21,7 +21,7 @@
+ 'Nothing but a cruel wound, a blow dealt to our mind
+ That turns hope into despair and makes us resign.
+ I know my life's a gamble, but in that forest
+-Misfortune made my path cross with my nemesis'.'"+{SPECIAL_NOTES}+{SPECIAL_NOTES_ARCANE}+{SPECIAL_NOTES_MAGICAL}
++Misfortune made my path cross with my nemesis.'"+{SPECIAL_NOTES}+{SPECIAL_NOTES_ARCANE}+{SPECIAL_NOTES_MAGICAL}
+ 
+     die_sound="beast-die.ogg"
+     image="units/calamity.png"
+Index: units/aberrations/ab_bc_02_jinx_beast.cfg
+===================================================================
+--- units/aberrations/ab_bc_02_jinx_beast.cfg	(revision 14203)
++++ units/aberrations/ab_bc_02_jinx_beast.cfg	(working copy)
+@@ -18,9 +18,9 @@
+     usage="mixed fighter"
+ 
+     description=_ "Sage Hogene, excerpt from a conversation with Lieutenant Artingale:
+-'My Lord, I have understood the nature of those beasts' capacity. There is no curse, it is only a mind trick.
+-- What do you mean? Facts prove you wrong, the men are struck by misfortune. Look at the battle, they seem unable to parry the most simple blows as soon as they meet the damned creatures.
+-- They are under the effects of some sort of hypnose, persuading them of their misfortune, and making them responsible of their own clumsiness. Fortunately, I found a way to dispel the clouds in their mind, and restore their ability to fight.'"+{SPECIAL_NOTES}+{SPECIAL_NOTES_ARCANE}+{SPECIAL_NOTES_MAGICAL}
++'- My Lord, I have divined the nature of those beasts' capacity. There is no curse, it is only a mind trick.
++- What do you mean, Hogene? Facts prove you wrong, the men are clearly struck by misfortune. Look at them struggle to fight: they seem unable to parry the simplest blow as soon as they meet the damned creatures.
++- They are under the effects of some sort of hypnosis, Lieutenant. They are self-deluded into their own misfortune. The men themselves are responsible of their own clumsiness! Fortunately, I have found a way to dispel the clouds in their minds, and restore their ability to fight.'"+{SPECIAL_NOTES}+{SPECIAL_NOTES_ARCANE}+{SPECIAL_NOTES_MAGICAL}
+ 
+     die_sound="beast-die.ogg"
+     image="units/jinx_beast.png"
+Index: units/aberrations/ab_un_03_raging_one.cfg
+===================================================================
+--- units/aberrations/ab_un_03_raging_one.cfg	(revision 14203)
++++ units/aberrations/ab_un_03_raging_one.cfg	(working copy)
+@@ -17,7 +17,10 @@
+     movement_type="nom_egg"
+     usage="fighter"
+ 
+-    description= _ "These hideous monsters came from the very first fear of Meloen: to mother a physically or mentally ill child. Not quite formed yet, the unhatched partly breaks the shell with its powerful legs, then its naturally agressive instinct guide it to charge and complete its hatch onto foes."+{SPECIAL_NOTES}+{SPECIAL_NOTES_BERSERK}
++    description= _ "Excerpt from a conversation between Lieutenant Artingale and Sage Hogene:
++'- Hogene, I often thank the Gods that the biggest Ragers are so very rare.
++- Are they so much more dangerous than the other unnatural denizens of the forest, my Lord?
++- Well, they kill you honestly, which is more than you can say for most. But the bloody smears they leave in their wake haunt my dreams.'"+{SPECIAL_NOTES}+{SPECIAL_NOTES_BERSERK}
+ 
+     die_sound="hiss-die.wav"
+     image="units/raging_berserk_one.png"
+Index: units/elementals/el_ue_01_unstable_elemental.cfg
+===================================================================
+--- units/elementals/el_ue_01_unstable_elemental.cfg	(revision 14203)
++++ units/elementals/el_ue_01_unstable_elemental.cfg	(working copy)
+@@ -1,4 +1,9 @@
+ #textdomain wesnoth-Nightmares_of_Meloen
++#define UNSTABLE_ELEMENTAL_COMMON_DESCRIPTION
++_ "Despising herself, self-doubting, Meloen felt a strong distrust of her surroundings. Panarbori, the spirit of nature originally made to flesh by the power of Meloen's love toward the forest, had been also altered by the doubts of Meloen. He became the opposite of what the former silver mage was seeking in her companion: instead of being considerate and a source of stability, he became impulsive and violent. His fits of anger matched the wrath of nature itself and were responsible for natural catastrophes.
++
++These unstable elementals are bits of Panarbori released after a rage tantrum, with the help of Meloen's power."#enddef
++
+ #define UNSTABLE_COMMON_DEFINITION
+     race=elemental
+     alignment="neutral"
+@@ -17,15 +22,16 @@
+     [/abilities]
+ #enddef
+ 
++#define UNSTABLE_TORNADO_DESCRIPTION
++_ "They are as unpredictable as their father, rushing like small furies from one battlefield to another."#enddef
++
+ #define UNSTABLE_TORNADO_COMMON_DEFINITION
+     {UNSTABLE_COMMON_DEFINITION}
+     name= _ "Tornado Form of Unstable Elemental"
+     movement_type="nom_elemental_tornado"
+ 
+-    description= _ "Despising herself, self-doubting, Meloen felt a strong distrust of her surroundings. Panarbori, the spirit of nature originally made to flesh by the power of Meloen's love toward the forest, had been also altered by the doubts of Meloen. He became the opposite of what the former silver mage was seeking in her companion, and instead of being considerate and a source of stability, he went impulsive and violent. His fits of anger would be compared to the wrath of nature itself and were responsible for a few natural catastrophes.
++    description= {UNSTABLE_ELEMENTAL_COMMON_DESCRIPTION}+" "+{UNSTABLE_TORNADO_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_TERRAIN_LINK}
+ 
+-These unstable elementals are bits of Panarbori that get released after a rage tantrum, with the help of Meloen's power. They are as unpredictable as their father, rushing like small furies from a battlefield to another."+{SPECIAL_NOTES}+{SPECIAL_NOTES_TERRAIN_LINK}
+-
+     die_sound="slowed.wav"
+     image="units/unstable_tornado_form.png"
+     {DEFENSE_ANIM "units/unstable_tornado_form.png" "units/unstable_tornado_form.png" dagger-swish.wav }
+@@ -80,15 +86,15 @@
+     [/attack_anim]
+ #enddef
+ 
++#define UNSTABLE_BRAMBLE_DESCRIPTION
++_ "Their thorny branches grow wildly in all directions, seeking to strangle any life they encounter."#enddef
++
+ #define UNSTABLE_BRAMBLE_COMMON_DEFINITION
+     {UNSTABLE_COMMON_DEFINITION}
+     name= _ "Bramble Form of Unstable Elemental"
+     movement_type="nom_elemental_bramble"
+ 
+-    description= _ "Despising herself, self-doubting, Meloen felt a strong distrust of her surroundings. Panarbori, the spirit of nature originally made to flesh by the power of Meloen's love toward the forest, had been also altered by the doubts of Meloen. He became the opposite of what the former silver mage was seeking in her companion, and instead of being considerate and a source of stability, he went impulsive and violent. His fits of anger would be compared to the wrath of nature itself and were responsible for a few natural catastrophes.
+-
+-These unstable elementals are bits of Panarbori that get released after a rage tantrum, with the help of Meloen's power. They are as unpredictable as their father, rushing like small furies from a battlefield to another."+{SPECIAL_NOTES}+{SPECIAL_NOTES_TERRAIN_LINK}
+-
++    description= {UNSTABLE_ELEMENTAL_COMMON_DESCRIPTION}+" "+{UNSTABLE_BRAMBLE_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_TERRAIN_LINK}
+     die_sound="wose-die.ogg"
+     image="units/unstable_bramble_form.png"
+     {DEFENSE_ANIM "units/unstable_bramble_form.png" "units/unstable_bramble_form.png" wose-hit.ogg }
+@@ -105,15 +111,15 @@
+     [/attack]
+ #enddef
+ 
++#define UNSTABLE_QUAKE_DESCRIPTION
++_ "The ground shudders as they attack in this form."#enddef
++
+ #define UNSTABLE_QUAKE_COMMON_DEFINITION
+     {UNSTABLE_COMMON_DEFINITION}
+     name= _ "Quake Form of Unstable Elemental"
+     movement_type="nom_elemental_quake"
+ 
+-    description= _ "Despising herself, self-doubting, Meloen felt a strong distrust of her surroundings. Panarbori, the spirit of nature originally made to flesh by the power of Meloen's love toward the forest, had been also altered by the doubts of Meloen. He became the opposite of what the former silver mage was seeking in her companion, and instead of being considerate and a source of stability, he went impulsive and violent. His fits of anger would be compared to the wrath of nature itself and were responsible for a few natural catastrophes.
+-
+-These unstable elementals are bits of Panarbori that get released after a rage tantrum, with the help of Meloen's power. They are as unpredictable as their father, rushing like small furies from a battlefield to another."+{SPECIAL_NOTES}+{SPECIAL_NOTES_TERRAIN_LINK}
+-
++    description= {UNSTABLE_ELEMENTAL_COMMON_DESCRIPTION}+" "+{UNSTABLE_QUAKE_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_TERRAIN_LINK}
+     die_sound="ugg.wav"
+     image="units/unstable_quake_form.png"
+     {DEFENSE_ANIM "units/unstable_quake_form.png" "units/unstable_quake_form.png" ugg.wav }
+@@ -180,15 +186,15 @@
+     [/attack_anim]
+ #enddef
+ 
++#define UNSTABLE_WHIRLPOOL_DESCRIPTION
++_ "They engulf foes in the turbulent waters that form them."#enddef
++
+ #define UNSTABLE_WHIRLPOOL_COMMON_DEFINITION
+     {UNSTABLE_COMMON_DEFINITION}
+     name= _ "Whirlpool Form of Unstable Elemental"
+     movement_type="nom_elemental_whirlpool"
+ 
+-    description= _ "Despising herself, self-doubting, Meloen felt a strong distrust of her surroundings. Panarbori, the spirit of nature originally made to flesh by the power of Meloen's love toward the forest, had been also altered by the doubts of Meloen. He became the opposite of what the former silver mage was seeking in her companion, and instead of being considerate and a source of stability, he went impulsive and violent. His fits of anger would be compared to the wrath of nature itself and were responsible for a few natural catastrophes.
+-
+-These unstable elementals are bits of Panarbori that get released after a rage tantrum, with the help of Meloen's power. They are as unpredictable as their father, rushing like small furies from a battlefield to another."+{SPECIAL_NOTES}+{SPECIAL_NOTES_TERRAIN_LINK}
+-
++    description= {UNSTABLE_ELEMENTAL_COMMON_DESCRIPTION}+" "+{UNSTABLE_WHIRLPOOL_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_TERRAIN_LINK}
+     die_sound="mermen-die.ogg"
+     image="units/unstable_whirlpool_form.png"
+     [standing_anim]
+@@ -336,15 +342,15 @@
+     [/attack_anim]
+ #enddef
+ 
++#define UNSTABLE_SANDSTORM_DESCRIPTION
++_ "They blast all they encounter with gouts of sand."#enddef
++
+ #define UNSTABLE_SANDSTORM_COMMON_DEFINITION
+     {UNSTABLE_COMMON_DEFINITION}
+     name= _ "Sandstorm Form of Unstable Elemental"
+     movement_type="nom_elemental_sandstorm"
+ 
+-    description= _ "Despising herself, self-doubting, Meloen felt a strong distrust of her surroundings. Panarbori, the spirit of nature originally made to flesh by the power of Meloen's love toward the forest, had been also altered by the doubts of Meloen. He became the opposite of what the former silver mage was seeking in her companion, and instead of being considerate and a source of stability, he went impulsive and violent. His fits of anger would be compared to the wrath of nature itself and were responsible for a few natural catastrophes.
+-
+-These unstable elementals are bits of Panarbori that get released after a rage tantrum, with the help of Meloen's power. They are as unpredictable as their father, rushing like small furies from a battlefield to another."+{SPECIAL_NOTES}+{SPECIAL_NOTES_TERRAIN_LINK}
+-
++    description= {UNSTABLE_ELEMENTAL_COMMON_DESCRIPTION}+" "+{UNSTABLE_SANDSTORM_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_TERRAIN_LINK}
+     die_sound="slowed.wav"
+     image="units/unstable_sandstorm_form.png"
+     {DEFENSE_ANIM "units/unstable_sandstorm_form.png" "units/unstable_sandstorm_form.png" dagger-swish.wav }
+@@ -400,15 +406,15 @@
+     [/attack_anim]
+ #enddef
+ 
++#define UNSTABLE_FROST_DESCRIPTION
++_ "They strike with a cold and biting fury."#enddef
++
+ #define UNSTABLE_FROST_COMMON_DEFINITION
+     {UNSTABLE_COMMON_DEFINITION}
+     name= _ "Frost Form of Unstable Elemental"
+     movement_type="nom_elemental_frost"
+ 
+-    description= _ "Despising herself, self-doubting, Meloen felt a strong distrust of her surroundings. Panarbori, the spirit of nature originally made to flesh by the power of Meloen's love toward the forest, had been also altered by the doubts of Meloen. He became the opposite of what the former silver mage was seeking in her companion, and instead of being considerate and a source of stability, he went impulsive and violent. His fits of anger would be compared to the wrath of nature itself and were responsible for a few natural catastrophes.
+-
+-These unstable elementals are bits of Panarbori that get released after a rage tantrum, with the help of Meloen's power. They are as unpredictable as their father, rushing like small furies from a battlefield to another."+{SPECIAL_NOTES}+{SPECIAL_NOTES_TERRAIN_LINK}
+-
++    description= {UNSTABLE_ELEMENTAL_COMMON_DESCRIPTION}+" "+{UNSTABLE_FROST_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_TERRAIN_LINK}
+     die_sound="ugg.wav"
+     image="units/unstable_frost_form.png"
+     {DEFENSE_ANIM "units/unstable_frost_form.png" "units/unstable_frost_form.png" ugg.wav }
+Index: units/elementals/el_ue_02_nature_wrath.cfg
+===================================================================
+--- units/elementals/el_ue_02_nature_wrath.cfg	(revision 14203)
++++ units/elementals/el_ue_02_nature_wrath.cfg	(working copy)
+@@ -28,10 +28,10 @@
+     name= _ "Tornado Form of Nature Wrath"
+     movement_type="nom_elemental_tornado"
+ 
+-    description= _ "Silver Mage Norsesh, Arcane Control - Analysis and Theorisation:
+-'One may interrogate himself on the way to be more potent with the usage of what is called magic by the common. That question inherently comes with an opposition between the quantity of energy transmitted and the efficiency of that transmission.
++    description= _ "Silver Mage Norsesh, Arcane Interactions - Analysis and Theorisation:
++'We now consider the limits of potency in the usage of what is called magic by the common.... Control, in the absence of mental discipline, does not rise commensurately with increasing power. The critical factor appears to be opposition between the quantity of energy transmitted and the efficiency of that transmission.
+ [...]
+-A literal example of power increase is the growth of Unstable elementals, becoming incarnations of the very wrath of nature, as seen in the south of the Wesnoth region. Far from getting more control over the energy projected, the creature only evolves in increasing that energy, making itself the puppet of its own emotion, like a child with the overgrown body of a man.'"+{SPECIAL_NOTES}+{SPECIAL_NOTES_TERRAIN_LINK}
++A literal example of the inefficiency inherent in power increase is the growth of Unstable Elementals, beings found in the south of the Wesnoth region. In their late stage the creatures become incarnations of the very wrath of nature. Far from exerting greater control over their ever increasing energy, the elemental becomes the puppet of its own excess emotion, like a child trapped within the overgrown body of a man, changing from one wild state to another in response to its environment.'"+{SPECIAL_NOTES}+{SPECIAL_NOTES_TERRAIN_LINK}
+ 
+     die_sound="slowed.wav"
+     image="units/unstable_tornado_form.png"
+@@ -92,10 +92,6 @@
+     name= _ "Bramble Form of Nature Wrath"
+     movement_type="nom_elemental_bramble"
+ 
+-    description= _ "Despising herself, self-doubting, Meloen felt a strong distrust of her surroundings. Panarbori, the spirit of nature originally made to flesh by the power of Meloen's love toward the forest, had been also altered by the doubts of Meloen. He became the opposite of what the former silver mage was seeking in her companion, and instead of being considerate and a source of stability, he went impulsive and violent. His fits of anger would be compared to the wrath of nature itself and were responsible for a few natural catastrophes.
+-
+-These unstable elementals are bits of Panarbori that get released after a rage tantrum, with the help of Meloen's power. They are as unpredictable as their father, rushing like small furies from a battlefield to another."
+-
+     die_sound="wose-die.ogg"
+     image="units/unstable_bramble_form.png"
+     {DEFENSE_ANIM "units/unstable_bramble_form.png" "units/unstable_bramble_form.png" wose-hit.ogg }
+@@ -117,10 +113,6 @@
+     name= _ "Quake Form of Nature Wrath"
+     movement_type="nom_elemental_quake"
+ 
+-    description= _ "Despising herself, self-doubting, Meloen felt a strong distrust of her surroundings. Panarbori, the spirit of nature originally made to flesh by the power of Meloen's love toward the forest, had been also altered by the doubts of Meloen. He became the opposite of what the former silver mage was seeking in her companion, and instead of being considerate and a source of stability, he went impulsive and violent. His fits of anger would be compared to the wrath of nature itself and were responsible for a few natural catastrophes.
+-
+-These unstable elementals are bits of Panarbori that get released after a rage tantrum, with the help of Meloen's power. They are as unpredictable as their father, rushing like small furies from a battlefield to another."
+-
+     die_sound="ugg.wav"
+     image="units/unstable_quake_form.png"
+     {DEFENSE_ANIM "units/unstable_quake_form.png" "units/unstable_quake_form.png" ugg.wav }
+@@ -192,10 +184,6 @@
+     name= _ "Whirlpool Form of Nature Wrath"
+     movement_type="nom_elemental_whirlpool"
+ 
+-    description= _ "Despising herself, self-doubting, Meloen felt a strong distrust of her surroundings. Panarbori, the spirit of nature originally made to flesh by the power of Meloen's love toward the forest, had been also altered by the doubts of Meloen. He became the opposite of what the former silver mage was seeking in her companion, and instead of being considerate and a source of stability, he went impulsive and violent. His fits of anger would be compared to the wrath of nature itself and were responsible for a few natural catastrophes.
+-
+-These unstable elementals are bits of Panarbori that get released after a rage tantrum, with the help of Meloen's power. They are as unpredictable as their father, rushing like small furies from a battlefield to another."
+-
+     die_sound="mermen-die.ogg"
+     image="units/unstable_whirlpool_form.png"
+     [standing_anim]
+@@ -348,10 +336,6 @@
+     name= _ "Sandstorm Form of Nature Wrath"
+     movement_type="nom_elemental_sandstorm"
+ 
+-    description= _ "Despising herself, self-doubting, Meloen felt a strong distrust of her surroundings. Panarbori, the spirit of nature originally made to flesh by the power of Meloen's love toward the forest, had been also altered by the doubts of Meloen. He became the opposite of what the former silver mage was seeking in her companion, and instead of being considerate and a source of stability, he went impulsive and violent. His fits of anger would be compared to the wrath of nature itself and were responsible for a few natural catastrophes.
+-
+-These unstable elementals are bits of Panarbori that get released after a rage tantrum, with the help of Meloen's power. They are as unpredictable as their father, rushing like small furies from a battlefield to another."
+-
+     die_sound="slowed.wav"
+     image="units/unstable_sandstorm_form.png"
+     {DEFENSE_ANIM "units/unstable_sandstorm_form.png" "units/unstable_sandstorm_form.png" dagger-swish.wav }
+@@ -412,10 +396,6 @@
+     name= _ "Frost Form of Nature Wrath"
+     movement_type="nom_elemental_frost"
+ 
+-    description= _ "Despising herself, self-doubting, Meloen felt a strong distrust of her surroundings. Panarbori, the spirit of nature originally made to flesh by the power of Meloen's love toward the forest, had been also altered by the doubts of Meloen. He became the opposite of what the former silver mage was seeking in her companion, and instead of being considerate and a source of stability, he went impulsive and violent. His fits of anger would be compared to the wrath of nature itself and were responsible for a few natural catastrophes.
+-
+-These unstable elementals are bits of Panarbori that get released after a rage tantrum, with the help of Meloen's power. They are as unpredictable as their father, rushing like small furies from a battlefield to another."
+-
+     die_sound="ugg.wav"
+     image="units/unstable_frost_form.png"
+     {DEFENSE_ANIM "units/unstable_frost_form.png" "units/unstable_frost_form.png" ugg.wav }

@@ -1,0 +1,23 @@
+--- devel/units/elementals//el_ue_02_nature_wrath.cfg	2012-04-16 11:28:37.000000000 +0800
++++ units/elementals/el_ue_02_nature_wrath.cfg	2012-04-16 10:40:12.000000000 +0800
+@@ -19,19 +19,16 @@
+     {AMLA_DEFAULT}
+ 
+     [abilities]
+         {DEVEL_ABILITY_TERRAIN_LINK}
+     [/abilities]
+ #enddef
+ 
+ #define WRATH_TORNADO_COMMON_DEFINITION
+     {WRATH_COMMON_DEFINITION}
+     name= _ "Tornado Form of Nature Wrath"
+     movement_type="DEVEL_nom_elemental_tornado"
+ 
+-    description= _ "Silver Mage Norsesh, Arcane Control - Analysis and Theorisation:
+-'One may interrogate himself on the way to be more potent with the usage of what is called magic by the common. That question inherently comes with an opposition between the quantity of energy transmitted and the efficiency of that transmission.
+-[...]
+-A literal example of power increase is the growth of Unstable elementals, becoming incarnations of the very wrath of nature, as seen in the south of the Wesnoth region. Far from getting more control over the energy projected, the creature only evolves in increasing that energy, making itself the puppet of its own emotion, like a child with the overgrown body of a man.'"+{SPECIAL_NOTES}+{SPECIAL_NOTES_TERRAIN_LINK}
++    description={WRATH_COMMON_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_TERRAIN_LINK}
+ 
+     die_sound="slowed.wav"
+     image="units/unstable_tornado_form.png"
