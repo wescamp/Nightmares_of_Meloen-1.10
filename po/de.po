@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2012-05-07 12:33-0400\n"
+"POT-Creation-Date: 2012-08-09 14:56-0400\n"
 "PO-Revision-Date: 2011-02-21 15:36+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -200,71 +200,71 @@ msgid "nightmare"
 msgstr ""
 
 #. [set_variable]
-#: Nightmares_of_Meloen/devel/traits/trait_unhatched.cfg:51
+#: Nightmares_of_Meloen/devel/traits/trait_unhatched.cfg:83
 #: Nightmares_of_Meloen/traits/trait_unhatched.cfg:51
 msgid "slippery"
 msgstr ""
 
 #. [set_variable]
-#: Nightmares_of_Meloen/devel/traits/trait_unhatched.cfg:55
+#: Nightmares_of_Meloen/devel/traits/trait_unhatched.cfg:87
 #: Nightmares_of_Meloen/traits/trait_unhatched.cfg:55
 msgid "+20% pierce resistance, +1 hitpoint"
 msgstr ""
 
 #. [set_variable]
-#: Nightmares_of_Meloen/devel/traits/trait_unhatched.cfg:94
+#: Nightmares_of_Meloen/devel/traits/trait_unhatched.cfg:126
 #: Nightmares_of_Meloen/traits/trait_unhatched.cfg:94
 msgid "flexible"
 msgstr ""
 
 #. [set_variable]
-#: Nightmares_of_Meloen/devel/traits/trait_unhatched.cfg:98
+#: Nightmares_of_Meloen/devel/traits/trait_unhatched.cfg:130
 #: Nightmares_of_Meloen/traits/trait_unhatched.cfg:98
 msgid "+20% impact resistance, +2 hitpoints +1 hitpoint per level"
 msgstr ""
 
 #. [set_variable]
-#: Nightmares_of_Meloen/devel/traits/trait_unhatched.cfg:137
+#: Nightmares_of_Meloen/devel/traits/trait_unhatched.cfg:169
 #: Nightmares_of_Meloen/traits/trait_unhatched.cfg:137
 msgid "thick"
 msgstr ""
 
 #. [set_variable]
-#: Nightmares_of_Meloen/devel/traits/trait_unhatched.cfg:141
+#: Nightmares_of_Meloen/devel/traits/trait_unhatched.cfg:173
 #: Nightmares_of_Meloen/traits/trait_unhatched.cfg:141
 msgid "+20% blade resistance"
 msgstr ""
 
 #. [set_variable]
-#: Nightmares_of_Meloen/devel/traits/trait_unhatched.cfg:182
+#: Nightmares_of_Meloen/devel/traits/trait_unhatched.cfg:214
 #: Nightmares_of_Meloen/traits/trait_unhatched.cfg:182
 msgid "hard"
 msgstr ""
 
 #. [set_variable]
-#: Nightmares_of_Meloen/devel/traits/trait_unhatched.cfg:186
+#: Nightmares_of_Meloen/devel/traits/trait_unhatched.cfg:218
 msgid "+20% blade and pierce resistance, -20% impact resistance, -5% hitpoints"
 msgstr ""
 
 #. [set_variable]
-#: Nightmares_of_Meloen/devel/traits/trait_unhatched.cfg:256
+#: Nightmares_of_Meloen/devel/traits/trait_unhatched.cfg:320
 #: Nightmares_of_Meloen/traits/trait_unhatched.cfg:254
 msgid "+1 melee damage, +1 hitpoint"
 msgstr ""
 
 #. [set_variable]
-#: Nightmares_of_Meloen/devel/traits/trait_unhatched.cfg:306
+#: Nightmares_of_Meloen/devel/traits/trait_unhatched.cfg:370
 #: Nightmares_of_Meloen/traits/trait_unhatched.cfg:302
 msgid "+4 hitpoints +1 hitpoint per level"
 msgstr ""
 
 #. [set_variable]
-#: Nightmares_of_Meloen/devel/traits/trait_unhatched.cfg:351
+#: Nightmares_of_Meloen/devel/traits/trait_unhatched.cfg:415
 msgid "-20% experience needed for promotion"
 msgstr ""
 
 #. [set_variable]
-#: Nightmares_of_Meloen/devel/traits/trait_unhatched.cfg:402
+#: Nightmares_of_Meloen/devel/traits/trait_unhatched.cfg:466
 msgid "+1 movement, -5% hitpoints"
 msgstr ""
 
@@ -308,7 +308,6 @@ msgstr ""
 
 #. [attack]: type=impact
 #: Nightmares_of_Meloen/devel/units/aberrations/ab_sw_01_scornful_watcher.cfg:39
-#: Nightmares_of_Meloen/devel/units/aberrations/ab_sw_02_leader.cfg:32
 #: Nightmares_of_Meloen/devel/units/aberrations/ab_sw_02_spiteful_watcher.cfg:31
 #: Nightmares_of_Meloen/devel/units/aberrations/ab_sw_03_inquisitor.cfg:33
 #: Nightmares_of_Meloen/units/aberrations/ab_sw_01_scornful_watcher.cfg:39
@@ -317,22 +316,14 @@ msgstr ""
 msgid "kick"
 msgstr ""
 
-#. [attack]: type=arcane
 #. [attack]: type=arcane_focus
 #: Nightmares_of_Meloen/devel/units/aberrations/ab_sw_01_scornful_watcher.cfg:48
-#: Nightmares_of_Meloen/devel/units/aberrations/ab_sw_02_leader.cfg:41
-#: Nightmares_of_Meloen/devel/units/aberrations/ab_sw_02_leader.cfg:53
 #: Nightmares_of_Meloen/devel/units/aberrations/ab_sw_02_spiteful_watcher.cfg:40
 #: Nightmares_of_Meloen/devel/units/aberrations/ab_sw_03_inquisitor.cfg:42
 #: Nightmares_of_Meloen/units/aberrations/ab_sw_01_scornful_watcher.cfg:48
 #: Nightmares_of_Meloen/units/aberrations/ab_sw_02_spiteful_watcher.cfg:40
 #: Nightmares_of_Meloen/units/aberrations/ab_sw_03_inquisitor.cfg:42
 msgid "stare"
-msgstr ""
-
-#. [unit_type]: id=DEVEL_Spiteful Watcher Leader, race=DEVEL_aberration, description={SPITEFUL_WATCHER_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_ARCANE_FOCUS}+{SPECIAL_NOTES_ARCANE}
-#: Nightmares_of_Meloen/devel/units/aberrations/ab_sw_02_leader.cfg:6
-msgid "Spiteful Watcher Leader"
 msgstr ""
 
 #. [unit_type]: id=DEVEL_Spiteful Watcher, race=DEVEL_aberration, description={SPITEFUL_WATCHER_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_ARCANE_FOCUS}
@@ -361,11 +352,6 @@ msgstr ""
 #: Nightmares_of_Meloen/devel/units/aberrations/ab_un_02_angry_one.cfg:6
 #: Nightmares_of_Meloen/units/aberrations/ab_un_02_angry_one.cfg:6
 msgid "Angry One"
-msgstr ""
-
-#. [unit_type]: id=DEVEL_Rash One Leader, race=DEVEL_aberration, description={RASH_ONE_DESCRIPTION}
-#: Nightmares_of_Meloen/devel/units/aberrations/ab_un_02b_leader.cfg:6
-msgid "Rash One Leader"
 msgstr ""
 
 #. [unit_type]: id=DEVEL_Rash One, race=DEVEL_aberration, description={RASH_ONE_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_CHARGE}
@@ -613,7 +599,6 @@ msgstr ""
 #: Nightmares_of_Meloen/devel/units/nightmares/ni_hd_01_howling_darkness.cfg:35
 #: Nightmares_of_Meloen/devel/units/nightmares/ni_hd_02_cloud_of_gloom.cfg:48
 #: Nightmares_of_Meloen/devel/units/nightmares/ni_hd_03_eternal_night.cfg:50
-#: Nightmares_of_Meloen/devel/units/nightmares/ni_lt_02_leader.cfg:48
 #: Nightmares_of_Meloen/units/nightmares/ni_hd_01_howling_darkness.cfg:35
 #: Nightmares_of_Meloen/units/nightmares/ni_hd_02_cloud_of_gloom.cfg:48
 #: Nightmares_of_Meloen/units/nightmares/ni_hd_03_eternal_night.cfg:50
@@ -651,18 +636,12 @@ msgstr ""
 
 #. [attack]: type=arcane
 #: Nightmares_of_Meloen/devel/units/nightmares/ni_lt_01_life_thief.cfg:31
-#: Nightmares_of_Meloen/devel/units/nightmares/ni_lt_02_leader.cfg:36
 #: Nightmares_of_Meloen/devel/units/nightmares/ni_lt_02_soul_snatcher.cfg:31
 #: Nightmares_of_Meloen/devel/units/nightmares/ni_lt_03_death_spectre.cfg:33
 #: Nightmares_of_Meloen/units/nightmares/ni_lt_01_life_thief.cfg:31
 #: Nightmares_of_Meloen/units/nightmares/ni_lt_02_soul_snatcher.cfg:31
 #: Nightmares_of_Meloen/units/nightmares/ni_lt_03_death_spectre.cfg:33
 msgid "soul grasp"
-msgstr ""
-
-#. [unit_type]: id=DEVEL_Soul Snatcher Leader, race=DEVEL_nightmare, description={SOUL_SNATCHER_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_DRAIN}+{SPECIAL_NOTES_HORROR}
-#: Nightmares_of_Meloen/devel/units/nightmares/ni_lt_02_leader.cfg:6
-msgid "Soul Snatcher Leader"
 msgstr ""
 
 #. [unit_type]: id=DEVEL_Soul Snatcher, race=DEVEL_nightmare, description={SOUL_SNATCHER_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_DRAIN}
@@ -719,16 +698,16 @@ msgid "Max HP bonus +3"
 msgstr ""
 
 #. [dummy]: id=weapon_arcane_focus
-#: Nightmares_of_Meloen/devel/utils/arcane_focus.cfg:8
-#: Nightmares_of_Meloen/devel/utils/arcane_focus.cfg:9
+#: Nightmares_of_Meloen/devel/utils/arcane_focus.cfg:6
+#: Nightmares_of_Meloen/devel/utils/arcane_focus.cfg:7
 #: Nightmares_of_Meloen/utils/arcane_focus.cfg:8
 #: Nightmares_of_Meloen/utils/arcane_focus.cfg:9
 msgid "arcane focus"
 msgstr ""
 
 #. [dummy]: id=weapon_arcane_focus
+#: Nightmares_of_Meloen/devel/utils/arcane_focus.cfg:8
 #: Nightmares_of_Meloen/devel/utils/arcane_focus.cfg:10
-#: Nightmares_of_Meloen/devel/utils/arcane_focus.cfg:12
 #: Nightmares_of_Meloen/utils/arcane_focus.cfg:10
 #: Nightmares_of_Meloen/utils/arcane_focus.cfg:12
 msgid ""
@@ -737,7 +716,7 @@ msgid ""
 "attack is more efficient against most humans."
 msgstr ""
 
-#: Nightmares_of_Meloen/devel/utils/arcane_focus.cfg:71
+#: Nightmares_of_Meloen/devel/utils/arcane_focus.cfg:75
 #: Nightmares_of_Meloen/utils/arcane_focus.cfg:71
 msgid ""
 " Many creatures of the world of Wesnoth are partly animated through magic. "
@@ -798,16 +777,16 @@ msgstr ""
 
 #. [dummy]: id=DEVEL_weapon_special_jinx
 #. [dummy]: id=weapon_special_jinx
+#: Nightmares_of_Meloen/devel/utils/jinx.cfg:14
 #: Nightmares_of_Meloen/devel/utils/jinx.cfg:15
-#: Nightmares_of_Meloen/devel/utils/jinx.cfg:16
 #: Nightmares_of_Meloen/utils/jinx.cfg:15
 #: Nightmares_of_Meloen/utils/jinx.cfg:17
 msgid "jinx"
 msgstr ""
 
 #. [dummy]: id=DEVEL_weapon_special_jinx
-#: Nightmares_of_Meloen/devel/utils/jinx.cfg:17
-#: Nightmares_of_Meloen/devel/utils/jinx.cfg:20
+#: Nightmares_of_Meloen/devel/utils/jinx.cfg:16
+#: Nightmares_of_Meloen/devel/utils/jinx.cfg:19
 msgid ""
 "Jinx:\n"
 "Curses the hit unit. The cursed unit gets a 15% defense penalty on every "
@@ -815,8 +794,8 @@ msgid ""
 "Does not affect undeads, and the defense value can't go lower than 20%."
 msgstr ""
 
-#: Nightmares_of_Meloen/devel/utils/jinx.cfg:61
-#: Nightmares_of_Meloen/devel/utils/jinx.cfg:96
+#: Nightmares_of_Meloen/devel/utils/jinx.cfg:67
+#: Nightmares_of_Meloen/devel/utils/jinx.cfg:102
 #: Nightmares_of_Meloen/utils/jinx.cfg:93
 #: Nightmares_of_Meloen/utils/jinx.cfg:143
 msgid "cursed"
@@ -868,8 +847,8 @@ msgid ""
 "to fire and impact, can slow enemies."
 msgstr ""
 
-#: Nightmares_of_Meloen/devel/utils/terrain_link.cfg:440
-#: Nightmares_of_Meloen/utils/terrain_link.cfg:440
+#: Nightmares_of_Meloen/devel/utils/terrain_link.cfg:484
+#: Nightmares_of_Meloen/utils/terrain_link.cfg:484
 msgid ""
 " That unit mutates depending on the terrain she is moving to, taking a form "
 "that result in better defense and movement."
@@ -877,14 +856,14 @@ msgstr ""
 
 #. [upkeep]: id=DEVEL_upkeep_band
 #. [upkeep]: id=upkeep_band
-#: Nightmares_of_Meloen/devel/utils/upkeep_band.cfg:6
+#: Nightmares_of_Meloen/devel/utils/upkeep_band.cfg:70
 #: Nightmares_of_Meloen/utils/upkeep_band.cfg:6
 msgid "upkeep band"
 msgstr ""
 
 #. [upkeep]: id=DEVEL_upkeep_band
 #. [upkeep]: id=upkeep_band
-#: Nightmares_of_Meloen/devel/utils/upkeep_band.cfg:7
+#: Nightmares_of_Meloen/devel/utils/upkeep_band.cfg:71
 #: Nightmares_of_Meloen/utils/upkeep_band.cfg:7
 msgid ""
 "Upkeep Band:\n"
@@ -893,7 +872,7 @@ msgid ""
 "alone, is also considered as a band (of 1 unit)."
 msgstr ""
 
-#: Nightmares_of_Meloen/devel/utils/upkeep_band.cfg:210
+#: Nightmares_of_Meloen/devel/utils/upkeep_band.cfg:275
 #: Nightmares_of_Meloen/utils/upkeep_band.cfg:210
 msgid "−1 gold"
 msgstr ""
