@@ -6,10 +6,10 @@ msgstr ""
 "PO-Revision-Date: 2012-09-04 21:02-0400\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
+"Language: gd\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: gd\n"
 
 #. [era]: id=aoh_nightmares_of_meloen_devel_{NIGHTMARES_OF_MELOEN_DEVEL_VERSION}
 #: Nightmares_of_Meloen/devel/eras/aoh+nightmares.cfg:5
