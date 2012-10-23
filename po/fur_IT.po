@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Nightmares_of_Meloen-1.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-04 21:02-0400\n"
+"POT-Creation-Date: 2012-10-23 23:18+0200\n"
 "PO-Revision-Date: 2012-02-26 17:22+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -570,7 +570,7 @@ msgstr ""
 #. [variation]: id=DEVEL_Creepers, race=DEVEL_insect, description={INSECT_COMMON_DESCRIPTION}
 #: Nightmares_of_Meloen/devel/units/insects/in_cr_00_creepers.cfg:6
 #: Nightmares_of_Meloen/devel/units/insects/in_cr_00_creepers.cfg:83
-#: Nightmares_of_Meloen/devel/units/insects/in_cr_00_creepers.cfg:131
+#: Nightmares_of_Meloen/devel/units/insects/in_cr_00_creepers.cfg:129
 #: Nightmares_of_Meloen/units/insects/in_cr_00_creepers.cfg:6
 #: Nightmares_of_Meloen/units/insects/in_cr_00_creepers.cfg:83
 #: Nightmares_of_Meloen/units/insects/in_cr_00_creepers.cfg:131
@@ -579,7 +579,7 @@ msgstr ""
 
 #. [attack]: type=pierce
 #: Nightmares_of_Meloen/devel/units/insects/in_cr_00_creepers.cfg:69
-#: Nightmares_of_Meloen/devel/units/insects/in_cr_00_creepers.cfg:116
+#: Nightmares_of_Meloen/devel/units/insects/in_cr_00_creepers.cfg:114
 #: Nightmares_of_Meloen/devel/units/insects/in_cr_00_creepers.cfg:166
 #: Nightmares_of_Meloen/units/insects/in_cr_00_creepers.cfg:69
 #: Nightmares_of_Meloen/units/insects/in_cr_00_creepers.cfg:116
