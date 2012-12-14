@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Nightmares_of_Meloen-1.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-23 23:18+0200\n"
+"POT-Creation-Date: 2012-12-14 07:15-0500\n"
 "PO-Revision-Date: 2010-12-19 21:42+0100\n"
 "Last-Translator: Guillaume Delacourt <feufochmar@d-20.fr>\n"
 "Language-Team: none\n"
@@ -302,12 +302,12 @@ msgid "Black Cat"
 msgstr "Chat noir"
 
 #. [attack]: type=arcane
-#: Nightmares_of_Meloen/devel/units/aberrations/ab_bc_01_black_cat.cfg:40
-#: Nightmares_of_Meloen/devel/units/aberrations/ab_bc_02_jinx_beast.cfg:40
-#: Nightmares_of_Meloen/devel/units/aberrations/ab_bc_03_calamity.cfg:42
-#: Nightmares_of_Meloen/units/aberrations/ab_bc_01_black_cat.cfg:40
-#: Nightmares_of_Meloen/units/aberrations/ab_bc_02_jinx_beast.cfg:40
-#: Nightmares_of_Meloen/units/aberrations/ab_bc_03_calamity.cfg:42
+#: Nightmares_of_Meloen/devel/units/aberrations/ab_bc_01_black_cat.cfg:54
+#: Nightmares_of_Meloen/devel/units/aberrations/ab_bc_02_jinx_beast.cfg:53
+#: Nightmares_of_Meloen/devel/units/aberrations/ab_bc_03_calamity.cfg:55
+#: Nightmares_of_Meloen/units/aberrations/ab_bc_01_black_cat.cfg:53
+#: Nightmares_of_Meloen/units/aberrations/ab_bc_02_jinx_beast.cfg:53
+#: Nightmares_of_Meloen/units/aberrations/ab_bc_03_calamity.cfg:55
 msgid "ill omen"
 msgstr "mauvais présage"
 
@@ -333,22 +333,22 @@ msgid "Scornful Watcher"
 msgstr "Œil dédaigneux"
 
 #. [attack]: type=impact
-#: Nightmares_of_Meloen/devel/units/aberrations/ab_sw_01_scornful_watcher.cfg:39
-#: Nightmares_of_Meloen/devel/units/aberrations/ab_sw_02_spiteful_watcher.cfg:31
-#: Nightmares_of_Meloen/devel/units/aberrations/ab_sw_03_inquisitor.cfg:33
-#: Nightmares_of_Meloen/units/aberrations/ab_sw_01_scornful_watcher.cfg:39
-#: Nightmares_of_Meloen/units/aberrations/ab_sw_02_spiteful_watcher.cfg:31
-#: Nightmares_of_Meloen/units/aberrations/ab_sw_03_inquisitor.cfg:33
+#: Nightmares_of_Meloen/devel/units/aberrations/ab_sw_01_scornful_watcher.cfg:53
+#: Nightmares_of_Meloen/devel/units/aberrations/ab_sw_02_spiteful_watcher.cfg:44
+#: Nightmares_of_Meloen/devel/units/aberrations/ab_sw_03_inquisitor.cfg:46
+#: Nightmares_of_Meloen/units/aberrations/ab_sw_01_scornful_watcher.cfg:52
+#: Nightmares_of_Meloen/units/aberrations/ab_sw_02_spiteful_watcher.cfg:44
+#: Nightmares_of_Meloen/units/aberrations/ab_sw_03_inquisitor.cfg:46
 msgid "kick"
 msgstr "coup de pied"
 
 #. [attack]: type=arcane_focus
-#: Nightmares_of_Meloen/devel/units/aberrations/ab_sw_01_scornful_watcher.cfg:48
-#: Nightmares_of_Meloen/devel/units/aberrations/ab_sw_02_spiteful_watcher.cfg:40
-#: Nightmares_of_Meloen/devel/units/aberrations/ab_sw_03_inquisitor.cfg:42
-#: Nightmares_of_Meloen/units/aberrations/ab_sw_01_scornful_watcher.cfg:48
-#: Nightmares_of_Meloen/units/aberrations/ab_sw_02_spiteful_watcher.cfg:40
-#: Nightmares_of_Meloen/units/aberrations/ab_sw_03_inquisitor.cfg:42
+#: Nightmares_of_Meloen/devel/units/aberrations/ab_sw_01_scornful_watcher.cfg:62
+#: Nightmares_of_Meloen/devel/units/aberrations/ab_sw_02_spiteful_watcher.cfg:53
+#: Nightmares_of_Meloen/devel/units/aberrations/ab_sw_03_inquisitor.cfg:55
+#: Nightmares_of_Meloen/units/aberrations/ab_sw_01_scornful_watcher.cfg:61
+#: Nightmares_of_Meloen/units/aberrations/ab_sw_02_spiteful_watcher.cfg:53
+#: Nightmares_of_Meloen/units/aberrations/ab_sw_03_inquisitor.cfg:55
 msgid "stare"
 msgstr "regard fixe"
 
@@ -961,7 +961,7 @@ msgstr ""
 "capacité nuée, lorsqu'elle est seule, est aussi considérée comme un groupe "
 "(d'une unité)."
 
-#: Nightmares_of_Meloen/devel/utils/upkeep_band.cfg:275
+#: Nightmares_of_Meloen/devel/utils/upkeep_band.cfg:334
 #: Nightmares_of_Meloen/utils/upkeep_band.cfg:210
 msgid "−1 gold"
 msgstr "-1 or"
