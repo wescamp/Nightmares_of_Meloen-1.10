@@ -6,6 +6,7 @@
 
 # # Arts : 
 mystic X the unknown : all current sprites
+LordBob (Emilien Rotival): aberration portraits
 
 # # Write ups : 
 Mist : faction background writing & unit descriptions

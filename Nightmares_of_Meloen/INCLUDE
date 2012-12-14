@@ -4,8 +4,6 @@ Nightmares of Meloen currently supports two modes for inclusion:
    - include Nightmares of Meloen in your own era
      (or an UMC era you have downloaded)
 
-   - include Nightmares of Meloen(dev) in World Conquest MP scenario
-
 
 
 Include Nightmares of Meloen in your own era:
@@ -58,74 +56,4 @@ into:
     #endif
 
 
-
-Include Nightmares of Meloen(dev) in World Conquest:
-----------------------------------------------------
-NB: The era Default+(dev)Nightmares must be selected for playing World Conquest.
-
-For World Conquest on version 1.10/1.11: in the file ~add-ons/World_Conquest/utils/variables.cfg, 
-
-
-1- at the end of macro WORLD_CONQUEST_GROUP_DEFINITIONS, add the two lines:
-...........................................................................
-
-{~add-ons/Nightmares_of_Meloen/devel/utils/world_conquest.cfg}
-{WORLD_CONQUEST_ERA_SPECIFIC_GROUP_DEFINITIONS}
-
-
-So the code:
-
-    #define WORLD_CONQUEST_GROUP_DEFINITIONS
-    [group]
-        id=dummy
-        leader=none
-    [/group]
-    [group]
-        [...]
-    [/group]
-    #enddef
-
-should become:
-
-    #define WORLD_CONQUEST_GROUP_DEFINITIONS
-    [group]
-        id=dummy
-        leader=none
-    [/group]
-    [group]
-        [...]
-    [/group]
-    {~add-ons/Nightmares_of_Meloen/devel/utils/world_conquest.cfg}
-    {WORLD_CONQUEST_ERA_SPECIFIC_GROUP_DEFINITIONS}
-    #enddef
-
-
-2- at the end of macro WORLD_CONQUEST_ARTIFACT_DEFINITIONS, add the two lines:
-..............................................................................
-
-{~add-ons/Nightmares_of_Meloen/devel/utils/world_conquest.cfg}
-{WORLD_CONQUEST_ERA_SPECIFIC_ARTIFACT_DEFINITIONS}
-
-
-So the code:
-
-    #define WORLD_CONQUEST_ARTIFACT_DEFINITIONS
-    [group]
-        id=dummy
-        leader=none
-    [/group]
-    [group]
-        [...]
-    [/group]
-    #enddef
-
-should become:
-
-    #define WORLD_CONQUEST_ARTIFACT_DEFINITIONS
-    [artifact]
-        [...]
-    [/artifact]
-    {~add-ons/Nightmares_of_Meloen/devel/utils/world_conquest.cfg}
-    {WORLD_CONQUEST_ERA_SPECIFIC_ARTIFACT_DEFINITIONS}
-    #enddef
 
