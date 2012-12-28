@@ -1,21 +1,27 @@
+# Torben Undiwill, 2012.
+# Torben Undiwill, 2012.
+# Torben Undiwill, 2012.
+# Torben Undiwill, 2012.
+# Torben Undiwill, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: Nightmares_of_Meloen-1.10\n"
+"Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-12-14 07:15-0500\n"
-"PO-Revision-Date: 2011-02-21 15:36+0100\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2012-08-15 19:03+0200\n"
+"Last-Translator: Torben Undiwill <>\n"
 "Language-Team: none\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
 
 #. [era]: id=aoh_nightmares_of_meloen_devel_{NIGHTMARES_OF_MELOEN_DEVEL_VERSION}
 #: Nightmares_of_Meloen/devel/eras/aoh+nightmares.cfg:5
 msgid "Heroes+(dev)Nightmares"
-msgstr ""
+msgstr "Helden + Albträume (in Entwicklung)"
 
 #. [multiplayer_side]: id=Random_default
 #: Nightmares_of_Meloen/devel/eras/aoh+nightmares.cfg:10
@@ -23,12 +29,12 @@ msgstr ""
 #: Nightmares_of_Meloen/eras/aoh+nightmares.cfg:10
 #: Nightmares_of_Meloen/eras/default+nightmares.cfg:10
 msgid "Random Default"
-msgstr ""
+msgstr "Zufällig (Standard)"
 
 #. [era]: id=nightmares_of_meloen_devel_{NIGHTMARES_OF_MELOEN_DEVEL_VERSION}
 #: Nightmares_of_Meloen/devel/eras/default+nightmares.cfg:5
 msgid "Default+(dev)Nightmares"
-msgstr ""
+msgstr "Standard + Albträume (in Entwicklung)"
 
 #. [multiplayer_side]: id=nightmares, type=random
 #: Nightmares_of_Meloen/devel/factions/nightmares-aoh.cfg:8
@@ -36,21 +42,21 @@ msgstr ""
 #: Nightmares_of_Meloen/factions/nightmares-aoh.cfg:8
 #: Nightmares_of_Meloen/factions/nightmares-default.cfg:8
 msgid "Nightmares of Meloen"
-msgstr ""
+msgstr "Albträume der Meloen"
 
 #. [race]: id=DEVEL_aberration
 #. [race]: id=aberration
 #: Nightmares_of_Meloen/devel/races/race_abberation.cfg:9
 #: Nightmares_of_Meloen/races/race_abberation.cfg:9
 msgid "race^Aberration"
-msgstr ""
+msgstr "Ungeheuer"
 
 #. [race]: id=DEVEL_aberration
 #. [race]: id=aberration
 #: Nightmares_of_Meloen/devel/races/race_abberation.cfg:10
 #: Nightmares_of_Meloen/races/race_abberation.cfg:10
 msgid "race+plural^Aberrations"
-msgstr ""
+msgstr "Ungeheuer"
 
 #. [race]: id=DEVEL_aberration
 #. [race]: id=aberration
@@ -61,20 +67,23 @@ msgid ""
 "natural and must have been either created or altered by magic, early in "
 "their development cycle."
 msgstr ""
+"Derart entartet ist es offenkundig, dass solche Kreaturen nicht natürlich "
+"sein können und erschaffen oder in einer frühem Entwicklungsstadium magisch "
+"verändert worden sein müssen."
 
 #. [race]: id=DEVEL_elemental
 #. [race]: id=elemental
 #: Nightmares_of_Meloen/devel/races/race_elemental.cfg:9
 #: Nightmares_of_Meloen/races/race_elemental.cfg:9
 msgid "race^Elemental"
-msgstr ""
+msgstr "Elementargeist"
 
 #. [race]: id=DEVEL_elemental
 #. [race]: id=elemental
 #: Nightmares_of_Meloen/devel/races/race_elemental.cfg:10
 #: Nightmares_of_Meloen/races/race_elemental.cfg:10
 msgid "race+plural^Elementals"
-msgstr ""
+msgstr "Elementargeister"
 
 #. [race]: id=DEVEL_elemental
 #. [race]: id=elemental
@@ -85,20 +94,24 @@ msgid ""
 "incarnate themselves to fight. They are reclusive, but can be quite fierce "
 "and brutal, for as it is said, there is nothing more ruthless than nature."
 msgstr ""
+"Die Elementargeister sind die Wächter der Welt, Geister der Elemente, die "
+"sich für der Kampf manifestieren. Sie sind zurückgezogen, doch können sie "
+"wild und grausam sein, denn bekanntlich ist nichts erbarmungsloser als die "
+"Natur."
 
 #. [race]: id=DEVEL_insect
 #. [race]: id=insect
 #: Nightmares_of_Meloen/devel/races/race_insect.cfg:9
 #: Nightmares_of_Meloen/races/race_insect.cfg:9
 msgid "race^Insect"
-msgstr ""
+msgstr "Insekt"
 
 #. [race]: id=DEVEL_insect
 #. [race]: id=insect
 #: Nightmares_of_Meloen/devel/races/race_insect.cfg:10
 #: Nightmares_of_Meloen/races/race_insect.cfg:10
 msgid "race+plural^Insects"
-msgstr ""
+msgstr "Insekten"
 
 #. [race]: id=DEVEL_insect
 #. [race]: id=insect
@@ -110,20 +123,24 @@ msgid ""
 "the little things, they might hurt you more than you expect. You can't "
 "poison, plague or drain insects."
 msgstr ""
+"Ein Insekt ist nicht, ein Dutzend stören bloß, ein Schwarm verursacht oft "
+"Ärger, eine Armee… Du willst keiner Armee gegenüberstehen. Beachte diese "
+"kleinen Dinger, sie könnten dir mehr schaden, als du erwartest. Du kannst "
+"Insekten nicht vergiften, ihr Leben stehlen oder ihre Leichen erwecken."
 
 #. [race]: id=DEVEL_nightmare
 #. [race]: id=nightmare
 #: Nightmares_of_Meloen/devel/races/race_nightmare.cfg:8
 #: Nightmares_of_Meloen/races/race_nightmare.cfg:8
 msgid "race^Nightmare"
-msgstr ""
+msgstr "Schrecken"
 
 #. [race]: id=DEVEL_nightmare
 #. [race]: id=nightmare
 #: Nightmares_of_Meloen/devel/races/race_nightmare.cfg:9
 #: Nightmares_of_Meloen/races/race_nightmare.cfg:9
 msgid "race+plural^Nightmares"
-msgstr ""
+msgstr "Schrecken"
 
 #. [race]: id=DEVEL_nightmare
 #. [race]: id=nightmare
@@ -136,144 +153,152 @@ msgid ""
 "uncertainty beyond the limit of sanity. Nightmares are not alive and as such "
 "can't be plagued, poisoned or drained."
 msgstr ""
+"Meloen erzeugte diese… Dinge, Verkörperungen jener Ängste, die ihr an Seele "
+"und Geist nagten. Jeder einzelne Schrecken steht für einen einzelnen Aspekt "
+"der Furcht, den sie in sich verborgen hatte, und ist als solcher "
+"unübertroffen darin, Angst und Zweifel jenseits der Grenzen der Vernunft zu "
+"verbreiten. Schrecken sind nicht lebendig und sind deshalb immun gegen Gift, "
+"Lebensentzug und Untod."
 
 #. [trait]: id=ruby
 #: Nightmares_of_Meloen/devel/traits/trait_elemental.cfg:9
 #: Nightmares_of_Meloen/traits/trait_elemental.cfg:9
 msgid "ruby"
-msgstr ""
+msgstr "Rubin"
 
 #. [trait]: id=ruby
 #: Nightmares_of_Meloen/devel/traits/trait_elemental.cfg:10
 #: Nightmares_of_Meloen/traits/trait_elemental.cfg:10
 msgid "female^ruby"
-msgstr ""
+msgstr "Rubin"
 
 #. [trait]: id=diamond
 #: Nightmares_of_Meloen/devel/traits/trait_elemental.cfg:28
 #: Nightmares_of_Meloen/traits/trait_elemental.cfg:28
 msgid "diamond"
-msgstr ""
+msgstr "Diamant"
 
 #. [trait]: id=diamond
 #: Nightmares_of_Meloen/devel/traits/trait_elemental.cfg:29
 #: Nightmares_of_Meloen/traits/trait_elemental.cfg:29
 msgid "female^diamond"
-msgstr ""
+msgstr "Diamant"
 
 #. [trait]: id=sapphire
 #: Nightmares_of_Meloen/devel/traits/trait_elemental.cfg:46
 #: Nightmares_of_Meloen/traits/trait_elemental.cfg:46
 msgid "sapphire"
-msgstr ""
+msgstr "Saphir"
 
 #. [trait]: id=sapphire
 #: Nightmares_of_Meloen/devel/traits/trait_elemental.cfg:47
 #: Nightmares_of_Meloen/traits/trait_elemental.cfg:47
 msgid "female^sapphire"
-msgstr ""
+msgstr "Saphir"
 
 #. [trait]: id=emerald
 #: Nightmares_of_Meloen/devel/traits/trait_elemental.cfg:60
 #: Nightmares_of_Meloen/traits/trait_elemental.cfg:60
 msgid "emerald"
-msgstr ""
+msgstr "Smaragd"
 
 #. [trait]: id=emerald
 #: Nightmares_of_Meloen/devel/traits/trait_elemental.cfg:61
 #: Nightmares_of_Meloen/traits/trait_elemental.cfg:61
 msgid "female^emerald"
-msgstr ""
+msgstr "Smaragd"
 
 #. [trait]: id=DEVEL_insect
 #. [trait]: id=insect
 #: Nightmares_of_Meloen/devel/traits/trait_insect.cfg:10
 #: Nightmares_of_Meloen/traits/trait_insect.cfg:10
 msgid "insect"
-msgstr ""
+msgstr "Insekt"
 
 #. [trait]: id=DEVEL_nightmare
 #. [trait]: id=nightmare
 #: Nightmares_of_Meloen/devel/traits/trait_nightmare.cfg:8
 #: Nightmares_of_Meloen/traits/trait_nightmare.cfg:8
 msgid "nightmare"
-msgstr ""
+msgstr "Schrecken"
 
 #. [set_variable]
 #: Nightmares_of_Meloen/devel/traits/trait_unhatched.cfg:83
 #: Nightmares_of_Meloen/traits/trait_unhatched.cfg:51
 msgid "slippery"
-msgstr ""
+msgstr "glitschig"
 
 #. [set_variable]
 #: Nightmares_of_Meloen/devel/traits/trait_unhatched.cfg:87
 #: Nightmares_of_Meloen/traits/trait_unhatched.cfg:55
 msgid "+20% pierce resistance, +1 hitpoint"
-msgstr ""
+msgstr "+20% Resistenz gegen Stich, +1 Lebenspunkt"
 
 #. [set_variable]
 #: Nightmares_of_Meloen/devel/traits/trait_unhatched.cfg:126
 #: Nightmares_of_Meloen/traits/trait_unhatched.cfg:94
 msgid "flexible"
-msgstr ""
+msgstr "unförmig"
 
 #. [set_variable]
 #: Nightmares_of_Meloen/devel/traits/trait_unhatched.cfg:130
 #: Nightmares_of_Meloen/traits/trait_unhatched.cfg:98
 msgid "+20% impact resistance, +2 hitpoints +1 hitpoint per level"
-msgstr ""
+msgstr "+20% Resistenz gegen Wucht, +2 Lebenspunkte, +1 Lebenspunkte pro Stufe"
 
 #. [set_variable]
 #: Nightmares_of_Meloen/devel/traits/trait_unhatched.cfg:169
 #: Nightmares_of_Meloen/traits/trait_unhatched.cfg:137
 msgid "thick"
-msgstr ""
+msgstr "wulstig"
 
 #. [set_variable]
 #: Nightmares_of_Meloen/devel/traits/trait_unhatched.cfg:173
 #: Nightmares_of_Meloen/traits/trait_unhatched.cfg:141
 msgid "+20% blade resistance"
-msgstr ""
+msgstr "+20% Resistenz gegen Klingen"
 
 #. [set_variable]
 #: Nightmares_of_Meloen/devel/traits/trait_unhatched.cfg:214
 #: Nightmares_of_Meloen/traits/trait_unhatched.cfg:182
 msgid "hard"
-msgstr ""
+msgstr "verhärtet"
 
 #. [set_variable]
 #: Nightmares_of_Meloen/devel/traits/trait_unhatched.cfg:218
 msgid "+20% blade and pierce resistance, -20% impact resistance, -5% hitpoints"
 msgstr ""
+"+20% Resistenz gegen Stich und Klinge, -20% Resistenz gegen Wucht, -5% "
+"Lebenspunkte"
 
 #. [set_variable]
 #: Nightmares_of_Meloen/devel/traits/trait_unhatched.cfg:320
 #: Nightmares_of_Meloen/traits/trait_unhatched.cfg:254
 msgid "+1 melee damage, +1 hitpoint"
-msgstr ""
+msgstr "+1 Nahkampfschaden, +1 Lebenspunkt"
 
 #. [set_variable]
 #: Nightmares_of_Meloen/devel/traits/trait_unhatched.cfg:370
 #: Nightmares_of_Meloen/traits/trait_unhatched.cfg:302
 msgid "+4 hitpoints +1 hitpoint per level"
-msgstr ""
+msgstr "+4 Lebenspunkte, +1 Lebenspunkt pro Stufe"
 
 #. [set_variable]
 #: Nightmares_of_Meloen/devel/traits/trait_unhatched.cfg:415
 msgid "-20% experience needed for promotion"
-msgstr ""
+msgstr "-20% benötigte Erfahrung"
 
 #. [set_variable]
 #: Nightmares_of_Meloen/devel/traits/trait_unhatched.cfg:466
 msgid "+1 movement, -5% hitpoints"
-msgstr ""
+msgstr "+1 Bewegungspunkt, -5% Lebenspunkte"
 
 #. [unit_type]: id=Black Cat, race=aberration, description={BLACK_CAT_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_ARCANE}+{SPECIAL_NOTES_MAGICAL}
 #. [unit_type]: id=DEVEL_Black Cat, race=DEVEL_aberration, description={BLACK_CAT_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_ARCANE}+{SPECIAL_NOTES_MAGICAL}
 #: Nightmares_of_Meloen/devel/units/aberrations/ab_bc_01_black_cat.cfg:6
 #: Nightmares_of_Meloen/units/aberrations/ab_bc_01_black_cat.cfg:6
 msgid "Black Cat"
-msgstr ""
+msgstr "Schwarze Katze"
 
 #. [attack]: type=arcane
 #: Nightmares_of_Meloen/devel/units/aberrations/ab_bc_01_black_cat.cfg:54
@@ -283,28 +308,28 @@ msgstr ""
 #: Nightmares_of_Meloen/units/aberrations/ab_bc_02_jinx_beast.cfg:53
 #: Nightmares_of_Meloen/units/aberrations/ab_bc_03_calamity.cfg:55
 msgid "ill omen"
-msgstr ""
+msgstr "Böses Omen"
 
 #. [unit_type]: id=DEVEL_Jinx Beast, race=DEVEL_aberration, description={JINX_BEAST_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_ARCANE}+{SPECIAL_NOTES_MAGICAL}
 #. [unit_type]: id=Jinx Beast, race=aberration, description={JINX_BEAST_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_ARCANE}+{SPECIAL_NOTES_MAGICAL}
 #: Nightmares_of_Meloen/devel/units/aberrations/ab_bc_02_jinx_beast.cfg:6
 #: Nightmares_of_Meloen/units/aberrations/ab_bc_02_jinx_beast.cfg:6
 msgid "Jinx Beast"
-msgstr ""
+msgstr "Unglücksbote"
 
 #. [unit_type]: id=Calamity, race=aberration, description={CALAMITY_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_ARCANE}+{SPECIAL_NOTES_MAGICAL}
 #. [unit_type]: id=DEVEL_Calamity, race=DEVEL_aberration, description={CALAMITY_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_ARCANE}+{SPECIAL_NOTES_MAGICAL}
 #: Nightmares_of_Meloen/devel/units/aberrations/ab_bc_03_calamity.cfg:6
 #: Nightmares_of_Meloen/units/aberrations/ab_bc_03_calamity.cfg:6
 msgid "Calamity"
-msgstr ""
+msgstr "Menetekel"
 
 #. [unit_type]: id=DEVEL_Scornful Watcher, race=DEVEL_aberration, description={SCORNFUL_WATCHER_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_ARCANE_FOCUS}
 #. [unit_type]: id=Scornful Watcher, race=aberration, description={SCORNFUL_WATCHER_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_ARCANE_FOCUS}
 #: Nightmares_of_Meloen/devel/units/aberrations/ab_sw_01_scornful_watcher.cfg:6
 #: Nightmares_of_Meloen/units/aberrations/ab_sw_01_scornful_watcher.cfg:6
 msgid "Scornful Watcher"
-msgstr ""
+msgstr "Verachtender Gutachter"
 
 #. [attack]: type=impact
 #: Nightmares_of_Meloen/devel/units/aberrations/ab_sw_01_scornful_watcher.cfg:53
@@ -314,7 +339,7 @@ msgstr ""
 #: Nightmares_of_Meloen/units/aberrations/ab_sw_02_spiteful_watcher.cfg:44
 #: Nightmares_of_Meloen/units/aberrations/ab_sw_03_inquisitor.cfg:46
 msgid "kick"
-msgstr ""
+msgstr "Tritt"
 
 #. [attack]: type=arcane_focus
 #: Nightmares_of_Meloen/devel/units/aberrations/ab_sw_01_scornful_watcher.cfg:62
@@ -324,61 +349,61 @@ msgstr ""
 #: Nightmares_of_Meloen/units/aberrations/ab_sw_02_spiteful_watcher.cfg:53
 #: Nightmares_of_Meloen/units/aberrations/ab_sw_03_inquisitor.cfg:55
 msgid "stare"
-msgstr ""
+msgstr "Musterung"
 
 #. [unit_type]: id=DEVEL_Spiteful Watcher, race=DEVEL_aberration, description={SPITEFUL_WATCHER_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_ARCANE_FOCUS}
 #. [unit_type]: id=Spiteful Watcher, race=aberration, description={SPITEFUL_WATCHER_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_ARCANE_FOCUS}
 #: Nightmares_of_Meloen/devel/units/aberrations/ab_sw_02_spiteful_watcher.cfg:6
 #: Nightmares_of_Meloen/units/aberrations/ab_sw_02_spiteful_watcher.cfg:6
 msgid "Spiteful Watcher"
-msgstr ""
+msgstr "Unerbittlicher Gutachter"
 
 #. [unit_type]: id=DEVEL_Inquisitor, race=DEVEL_aberration, description={INQUISITOR_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_ARCANE_FOCUS}
 #. [unit_type]: id=Inquisitor, race=aberration, description={INQUISITOR_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_ARCANE_FOCUS}
 #: Nightmares_of_Meloen/devel/units/aberrations/ab_sw_03_inquisitor.cfg:6
 #: Nightmares_of_Meloen/units/aberrations/ab_sw_03_inquisitor.cfg:6
 msgid "Inquisitor"
-msgstr ""
+msgstr "Willensbrecher"
 
 #. [unit_type]: id=DEVEL_Unhatched, race=DEVEL_aberration, description={UNHATCHED_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_CHARGE}
 #. [unit_type]: id=Unhatched, race=aberration, description={UNHATCHED_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_CHARGE}
 #: Nightmares_of_Meloen/devel/units/aberrations/ab_un_01_unhatched.cfg:6
 #: Nightmares_of_Meloen/units/aberrations/ab_un_01_unhatched.cfg:6
 msgid "Unhatched"
-msgstr ""
+msgstr "Unreifes Balg"
 
 #. [unit_type]: id=Angry One, race=aberration, description={ANGRY_ONE_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_BERSERK}
 #. [unit_type]: id=DEVEL_Angry One, race=DEVEL_aberration, description={ANGRY_ONE_DESCRIPTION}
 #: Nightmares_of_Meloen/devel/units/aberrations/ab_un_02_angry_one.cfg:6
 #: Nightmares_of_Meloen/units/aberrations/ab_un_02_angry_one.cfg:6
 msgid "Angry One"
-msgstr ""
+msgstr "Wutbalg"
 
 #. [unit_type]: id=DEVEL_Rash One, race=DEVEL_aberration, description={RASH_ONE_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_CHARGE}
 #. [unit_type]: id=Rash One, race=aberration, description={RASH_ONE_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_CHARGE}
 #: Nightmares_of_Meloen/devel/units/aberrations/ab_un_02b_rash_one.cfg:6
 #: Nightmares_of_Meloen/units/aberrations/ab_un_02b_rash_one.cfg:6
 msgid "Rash One"
-msgstr ""
+msgstr "Hitzbalg"
 
 #. [unit_type]: id=DEVEL_Raging One, race=DEVEL_aberration, description={RAGING_ONE_DESCRIPTION}
 #. [unit_type]: id=Raging One, race=aberration, description={RAGING_ONE_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_BERSERK}
 #: Nightmares_of_Meloen/devel/units/aberrations/ab_un_03_raging_one.cfg:6
 #: Nightmares_of_Meloen/units/aberrations/ab_un_03_raging_one.cfg:6
 msgid "Raging One"
-msgstr ""
+msgstr "Randalebalg"
 
 #. [unit_type]: id=DEVEL_Reckless One, race=DEVEL_aberration, description={RECKLESS_ONE_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_CHARGE}
 #. [unit_type]: id=Reckless One, race=aberration, description={RECKLESS_ONE_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_CHARGE}
 #: Nightmares_of_Meloen/devel/units/aberrations/ab_un_03b_reckless_one.cfg:6
 #: Nightmares_of_Meloen/units/aberrations/ab_un_03b_reckless_one.cfg:6
 msgid "Reckless One"
-msgstr ""
+msgstr "Prescher"
 
 #: Nightmares_of_Meloen/devel/units/elementals/el_ue_01_unstable_elemental.cfg:22
 #: Nightmares_of_Meloen/units/elementals/el_ue_01_unstable_elemental.cfg:23
 msgid "Tornado Form of Unstable Elemental"
-msgstr ""
+msgstr "Stürmische Gestalt des Unsteten Geistes"
 
 #. [attack]: type=blade
 #: Nightmares_of_Meloen/devel/units/elementals/el_ue_01_unstable_elemental.cfg:34
@@ -386,7 +411,7 @@ msgstr ""
 #: Nightmares_of_Meloen/units/elementals/el_ue_01_unstable_elemental.cfg:35
 #: Nightmares_of_Meloen/units/elementals/el_ue_02_nature_wrath.cfg:40
 msgid "gust"
-msgstr ""
+msgstr "Böe"
 
 #. [attack]: type=blade
 #: Nightmares_of_Meloen/devel/units/elementals/el_ue_01_unstable_elemental.cfg:43
@@ -394,12 +419,12 @@ msgstr ""
 #: Nightmares_of_Meloen/units/elementals/el_ue_01_unstable_elemental.cfg:44
 #: Nightmares_of_Meloen/units/elementals/el_ue_02_nature_wrath.cfg:49
 msgid "air blast"
-msgstr ""
+msgstr "Luftschlag"
 
 #: Nightmares_of_Meloen/devel/units/elementals/el_ue_01_unstable_elemental.cfg:83
 #: Nightmares_of_Meloen/units/elementals/el_ue_01_unstable_elemental.cfg:84
 msgid "Bramble Form of Unstable Elemental"
-msgstr ""
+msgstr "Wuchernde Gestalt des Unsteten Geistes"
 
 #. [attack]: type=impact
 #: Nightmares_of_Meloen/devel/units/elementals/el_ue_01_unstable_elemental.cfg:94
@@ -407,12 +432,12 @@ msgstr ""
 #: Nightmares_of_Meloen/units/elementals/el_ue_01_unstable_elemental.cfg:95
 #: Nightmares_of_Meloen/units/elementals/el_ue_02_nature_wrath.cfg:99
 msgid "crush"
-msgstr ""
+msgstr "Zerquetschen"
 
 #: Nightmares_of_Meloen/devel/units/elementals/el_ue_01_unstable_elemental.cfg:105
 #: Nightmares_of_Meloen/units/elementals/el_ue_01_unstable_elemental.cfg:106
 msgid "Quake Form of Unstable Elemental"
-msgstr ""
+msgstr "Bebende Gestalt des Unsteten Geistes"
 
 #. [attack]: type=impact
 #: Nightmares_of_Meloen/devel/units/elementals/el_ue_01_unstable_elemental.cfg:116
@@ -420,7 +445,7 @@ msgstr ""
 #: Nightmares_of_Meloen/units/elementals/el_ue_01_unstable_elemental.cfg:117
 #: Nightmares_of_Meloen/units/elementals/el_ue_02_nature_wrath.cfg:120
 msgid "shatter"
-msgstr ""
+msgstr "Zerschmettern"
 
 #. [attack]: type=impact
 #: Nightmares_of_Meloen/devel/units/elementals/el_ue_01_unstable_elemental.cfg:125
@@ -428,12 +453,12 @@ msgstr ""
 #: Nightmares_of_Meloen/units/elementals/el_ue_01_unstable_elemental.cfg:126
 #: Nightmares_of_Meloen/units/elementals/el_ue_02_nature_wrath.cfg:129
 msgid "boulder"
-msgstr ""
+msgstr "Felsen"
 
 #: Nightmares_of_Meloen/devel/units/elementals/el_ue_01_unstable_elemental.cfg:177
 #: Nightmares_of_Meloen/units/elementals/el_ue_01_unstable_elemental.cfg:178
 msgid "Whirlpool Form of Unstable Elemental"
-msgstr ""
+msgstr "Turbulente Gestalt des Unsteten Geistes"
 
 #. [attack]: type=blade
 #: Nightmares_of_Meloen/devel/units/elementals/el_ue_01_unstable_elemental.cfg:231
@@ -441,7 +466,7 @@ msgstr ""
 #: Nightmares_of_Meloen/units/elementals/el_ue_01_unstable_elemental.cfg:232
 #: Nightmares_of_Meloen/units/elementals/el_ue_02_nature_wrath.cfg:234
 msgid "billow"
-msgstr ""
+msgstr "Sog"
 
 #. [attack]: type=impact
 #: Nightmares_of_Meloen/devel/units/elementals/el_ue_01_unstable_elemental.cfg:240
@@ -449,12 +474,12 @@ msgstr ""
 #: Nightmares_of_Meloen/units/elementals/el_ue_01_unstable_elemental.cfg:241
 #: Nightmares_of_Meloen/units/elementals/el_ue_02_nature_wrath.cfg:243
 msgid "water blast"
-msgstr ""
+msgstr "Wasserschlag"
 
 #: Nightmares_of_Meloen/devel/units/elementals/el_ue_01_unstable_elemental.cfg:330
 #: Nightmares_of_Meloen/units/elementals/el_ue_01_unstable_elemental.cfg:331
 msgid "Sandstorm Form of Unstable Elemental"
-msgstr ""
+msgstr "Schleifende Gestalt des Unsteten Geistes"
 
 #. [attack]: type=blade
 #: Nightmares_of_Meloen/devel/units/elementals/el_ue_01_unstable_elemental.cfg:341
@@ -462,7 +487,7 @@ msgstr ""
 #: Nightmares_of_Meloen/units/elementals/el_ue_01_unstable_elemental.cfg:342
 #: Nightmares_of_Meloen/units/elementals/el_ue_02_nature_wrath.cfg:343
 msgid "devil dust"
-msgstr ""
+msgstr "Staubteufel"
 
 #. [attack]: type=blade
 #: Nightmares_of_Meloen/devel/units/elementals/el_ue_01_unstable_elemental.cfg:350
@@ -470,12 +495,12 @@ msgstr ""
 #: Nightmares_of_Meloen/units/elementals/el_ue_01_unstable_elemental.cfg:351
 #: Nightmares_of_Meloen/units/elementals/el_ue_02_nature_wrath.cfg:352
 msgid "sand blast"
-msgstr ""
+msgstr "Sandschlag"
 
 #: Nightmares_of_Meloen/devel/units/elementals/el_ue_01_unstable_elemental.cfg:391
 #: Nightmares_of_Meloen/units/elementals/el_ue_01_unstable_elemental.cfg:392
 msgid "Frost Form of Unstable Elemental"
-msgstr ""
+msgstr "Eisige Gestalt des Unsteten Geistes"
 
 #. [attack]: type=pierce
 #: Nightmares_of_Meloen/devel/units/elementals/el_ue_01_unstable_elemental.cfg:402
@@ -483,87 +508,87 @@ msgstr ""
 #: Nightmares_of_Meloen/units/elementals/el_ue_01_unstable_elemental.cfg:403
 #: Nightmares_of_Meloen/units/elementals/el_ue_02_nature_wrath.cfg:403
 msgid "deathblow"
-msgstr ""
+msgstr "Tödlicher Schlag"
 
 #. [unit_type]: id=DEVEL_Unstable Elemental
 #. [unit_type]: id=Unstable Elemental
 #: Nightmares_of_Meloen/devel/units/elementals/el_ue_01_unstable_elemental.cfg:414
 #: Nightmares_of_Meloen/units/elementals/el_ue_01_unstable_elemental.cfg:460
 msgid "Unstable Elemental"
-msgstr ""
+msgstr "Unsteter Geist"
 
 #. [unit_type]: id=unstable_tornado
 #: Nightmares_of_Meloen/devel/units/elementals/el_ue_01_unstable_elemental.cfg:462
 #: Nightmares_of_Meloen/units/elementals/el_ue_01_unstable_elemental.cfg:508
 msgid "Unstable Elemental — Tornado Form"
-msgstr ""
+msgstr "Unsteter Geist — Stürmende Gestalt"
 
 #. [unit_type]: id=unstable_bramble
 #: Nightmares_of_Meloen/devel/units/elementals/el_ue_01_unstable_elemental.cfg:468
 #: Nightmares_of_Meloen/units/elementals/el_ue_01_unstable_elemental.cfg:514
 msgid "Unstable Elemental — Bramble Form"
-msgstr ""
+msgstr "Unsteter Geist — Wuchernde Gestalt"
 
 #. [unit_type]: id=unstable_quake
 #: Nightmares_of_Meloen/devel/units/elementals/el_ue_01_unstable_elemental.cfg:474
 #: Nightmares_of_Meloen/units/elementals/el_ue_01_unstable_elemental.cfg:520
 msgid "Unstable Elemental — Quake Form"
-msgstr ""
+msgstr "Unsteter Geist — Bebende Gestalt"
 
 #. [unit_type]: id=unstable_whirlpool
 #: Nightmares_of_Meloen/devel/units/elementals/el_ue_01_unstable_elemental.cfg:480
 #: Nightmares_of_Meloen/units/elementals/el_ue_01_unstable_elemental.cfg:526
 msgid "Unstable Elemental — Whirlpool Form"
-msgstr ""
+msgstr "Unsteter Geist — Peitschende Gestalt"
 
 #. [unit_type]: id=unstable_sandstorm
 #: Nightmares_of_Meloen/devel/units/elementals/el_ue_01_unstable_elemental.cfg:486
 #: Nightmares_of_Meloen/units/elementals/el_ue_01_unstable_elemental.cfg:532
 msgid "Unstable Elemental — Sandstorm Form"
-msgstr ""
+msgstr "Unsteter Geist — Schleifende Gestalt"
 
 #. [unit_type]: id=unstable_frost
 #: Nightmares_of_Meloen/devel/units/elementals/el_ue_01_unstable_elemental.cfg:492
 #: Nightmares_of_Meloen/units/elementals/el_ue_01_unstable_elemental.cfg:538
 msgid "Unstable Elemental — Frost Form"
-msgstr ""
+msgstr "Unsteter Geist — Eisige Gestalt"
 
 #: Nightmares_of_Meloen/devel/units/elementals/el_ue_02_nature_wrath.cfg:28
 #: Nightmares_of_Meloen/units/elementals/el_ue_02_nature_wrath.cfg:28
 msgid "Tornado Form of Nature Wrath"
-msgstr ""
+msgstr "Stürmische Gestalt des Zorns der Natur"
 
 #: Nightmares_of_Meloen/devel/units/elementals/el_ue_02_nature_wrath.cfg:89
 #: Nightmares_of_Meloen/units/elementals/el_ue_02_nature_wrath.cfg:89
 msgid "Bramble Form of Nature Wrath"
-msgstr ""
+msgstr "Wuchernde Gestalt des Zorns der Natur"
 
 #: Nightmares_of_Meloen/devel/units/elementals/el_ue_02_nature_wrath.cfg:110
 #: Nightmares_of_Meloen/units/elementals/el_ue_02_nature_wrath.cfg:110
 msgid "Quake Form of Nature Wrath"
-msgstr ""
+msgstr "Bebende Gestalt des Zorns der Natur"
 
 #: Nightmares_of_Meloen/devel/units/elementals/el_ue_02_nature_wrath.cfg:181
 #: Nightmares_of_Meloen/units/elementals/el_ue_02_nature_wrath.cfg:181
 msgid "Whirlpool Form of Nature Wrath"
-msgstr ""
+msgstr "Peitschende Gestalt des Zorns der Natur"
 
 #: Nightmares_of_Meloen/devel/units/elementals/el_ue_02_nature_wrath.cfg:333
 #: Nightmares_of_Meloen/units/elementals/el_ue_02_nature_wrath.cfg:333
 msgid "Sandstorm Form of Nature Wrath"
-msgstr ""
+msgstr "Schleifende Gestalt des Zorns der Natur"
 
 #: Nightmares_of_Meloen/devel/units/elementals/el_ue_02_nature_wrath.cfg:393
 #: Nightmares_of_Meloen/units/elementals/el_ue_02_nature_wrath.cfg:393
 msgid "Frost Form of Nature Wrath"
-msgstr ""
+msgstr "Eisige Gestalt des Zorns der Natur"
 
 #. [unit_type]: id=DEVEL_Nature Wrath
 #. [unit_type]: id=Nature Wrath
 #: Nightmares_of_Meloen/devel/units/elementals/el_ue_02_nature_wrath.cfg:415
 #: Nightmares_of_Meloen/units/elementals/el_ue_02_nature_wrath.cfg:460
 msgid "Nature Wrath"
-msgstr ""
+msgstr "Zorn der Natur"
 
 #. [unit_type]: id=Creepers, race=insect, description={INSECT_COMMON_DESCRIPTION}
 #. [unit_type]: id=DEVEL_Creepers, race=DEVEL_insect, description={INSECT_COMMON_DESCRIPTION}
@@ -576,7 +601,7 @@ msgstr ""
 #: Nightmares_of_Meloen/units/insects/in_cr_00_creepers.cfg:83
 #: Nightmares_of_Meloen/units/insects/in_cr_00_creepers.cfg:131
 msgid "Creepers"
-msgstr ""
+msgstr "Kriecher"
 
 #. [attack]: type=pierce
 #: Nightmares_of_Meloen/devel/units/insects/in_cr_00_creepers.cfg:69
@@ -586,14 +611,14 @@ msgstr ""
 #: Nightmares_of_Meloen/units/insects/in_cr_00_creepers.cfg:116
 #: Nightmares_of_Meloen/units/insects/in_cr_00_creepers.cfg:166
 msgid "sting"
-msgstr ""
+msgstr "Stiche"
 
 #. [unit_type]: id=DEVEL_Howling Darkness, race=DEVEL_nightmare, description={HOWLING_DARKNESS_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_SKIRMISHER}+{SPECIAL_NOTES_HORROR}
 #. [unit_type]: id=Howling Darkness, race=nightmare, description={HOWLING_DARKNESS_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_SKIRMISHER}+{SPECIAL_NOTES_HORROR}
 #: Nightmares_of_Meloen/devel/units/nightmares/ni_hd_01_howling_darkness.cfg:6
 #: Nightmares_of_Meloen/units/nightmares/ni_hd_01_howling_darkness.cfg:6
 msgid "Howling Darkness"
-msgstr ""
+msgstr "Heulende Finsternis"
 
 #. [attack]: type=cold
 #: Nightmares_of_Meloen/devel/units/nightmares/ni_hd_01_howling_darkness.cfg:35
@@ -603,14 +628,14 @@ msgstr ""
 #: Nightmares_of_Meloen/units/nightmares/ni_hd_02_cloud_of_gloom.cfg:48
 #: Nightmares_of_Meloen/units/nightmares/ni_hd_03_eternal_night.cfg:50
 msgid "howl"
-msgstr ""
+msgstr "Heulen"
 
 #. [unit_type]: id=Cloud of Gloom, race=nightmare, description={CLOUD_OF_GLOOM_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_SKIRMISHER}+{SPECIAL_NOTES_MAGICAL}+{SPECIAL_NOTES_HORROR}
 #. [unit_type]: id=DEVEL_Cloud of Gloom, race=DEVEL_nightmare, description={CLOUD_OF_GLOOM_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_SKIRMISHER}+{SPECIAL_NOTES_MAGICAL}+{SPECIAL_NOTES_HORROR}
 #: Nightmares_of_Meloen/devel/units/nightmares/ni_hd_02_cloud_of_gloom.cfg:6
 #: Nightmares_of_Meloen/units/nightmares/ni_hd_02_cloud_of_gloom.cfg:6
 msgid "Cloud of Gloom"
-msgstr ""
+msgstr "Düstere Wehklage"
 
 #. [attack]: type=cold
 #: Nightmares_of_Meloen/devel/units/nightmares/ni_hd_02_cloud_of_gloom.cfg:36
@@ -618,21 +643,21 @@ msgstr ""
 #: Nightmares_of_Meloen/units/nightmares/ni_hd_02_cloud_of_gloom.cfg:36
 #: Nightmares_of_Meloen/units/nightmares/ni_hd_03_eternal_night.cfg:37
 msgid "cold aura"
-msgstr ""
+msgstr "Aura der Kälte"
 
 #. [unit_type]: id=DEVEL_Eternal Night, race=DEVEL_nightmare, description={ETERNAL_NIGHT_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_SKIRMISHER}+{SPECIAL_NOTES_MAGICAL}+{SPECIAL_NOTES_HORROR}
 #. [unit_type]: id=Eternal Night, race=nightmare, description={ETERNAL_NIGHT_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_SKIRMISHER}+{SPECIAL_NOTES_MAGICAL}+{SPECIAL_NOTES_HORROR}
 #: Nightmares_of_Meloen/devel/units/nightmares/ni_hd_03_eternal_night.cfg:6
 #: Nightmares_of_Meloen/units/nightmares/ni_hd_03_eternal_night.cfg:6
 msgid "Eternal Night"
-msgstr ""
+msgstr "Ewige Nacht"
 
 #. [unit_type]: id=DEVEL_Life Thief, race=DEVEL_nightmare, description={LIFE_THIEF_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_DRAIN}
 #. [unit_type]: id=Life Thief, race=nightmare, description={LIFE_THIEF_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_DRAIN}
 #: Nightmares_of_Meloen/devel/units/nightmares/ni_lt_01_life_thief.cfg:6
 #: Nightmares_of_Meloen/units/nightmares/ni_lt_01_life_thief.cfg:6
 msgid "Life Thief"
-msgstr ""
+msgstr "Lebensdieb"
 
 #. [attack]: type=arcane
 #: Nightmares_of_Meloen/devel/units/nightmares/ni_lt_01_life_thief.cfg:31
@@ -642,21 +667,21 @@ msgstr ""
 #: Nightmares_of_Meloen/units/nightmares/ni_lt_02_soul_snatcher.cfg:31
 #: Nightmares_of_Meloen/units/nightmares/ni_lt_03_death_spectre.cfg:33
 msgid "soul grasp"
-msgstr ""
+msgstr "Griff nach der Seele"
 
 #. [unit_type]: id=DEVEL_Soul Snatcher, race=DEVEL_nightmare, description={SOUL_SNATCHER_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_DRAIN}
 #. [unit_type]: id=Soul Snatcher, race=nightmare, description={SOUL_SNATCHER_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_DRAIN}
 #: Nightmares_of_Meloen/devel/units/nightmares/ni_lt_02_soul_snatcher.cfg:6
 #: Nightmares_of_Meloen/units/nightmares/ni_lt_02_soul_snatcher.cfg:6
 msgid "Soul Snatcher"
-msgstr ""
+msgstr "Seelenräuber"
 
 #. [unit_type]: id=DEVEL_Death Spectre, race=DEVEL_nightmare, description={DEATH_SPECTRE_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_DRAIN}
 #. [unit_type]: id=Death Spectre, race=nightmare, description={DEATH_SPECTRE_DESCRIPTION}+{SPECIAL_NOTES}+{SPECIAL_NOTES_DRAIN}
 #: Nightmares_of_Meloen/devel/units/nightmares/ni_lt_03_death_spectre.cfg:6
 #: Nightmares_of_Meloen/units/nightmares/ni_lt_03_death_spectre.cfg:6
 msgid "Death Spectre"
-msgstr ""
+msgstr "Phantom des Todes"
 
 #. [advancement]: id=amla_creep1
 #. [advancement]: id=amla_creep3
@@ -668,7 +693,7 @@ msgstr ""
 #: Nightmares_of_Meloen/utils/amla_creepers.cfg:87
 #: Nightmares_of_Meloen/utils/amla_creepers.cfg:172
 msgid "Max HP bonus +1, regenerate +2"
-msgstr ""
+msgstr "+1 zusätzlicher Lebenspunkt, Regeneration +2"
 
 #. [advancement]: id=amla_creep2
 #. [advancement]: id=amla_creep4
@@ -683,19 +708,19 @@ msgstr ""
 #: Nightmares_of_Meloen/utils/amla_creepers.cfg:216
 #: Nightmares_of_Meloen/utils/amla_creepers.cfg:297
 msgid "Max HP bonus +1, damage +1"
-msgstr ""
+msgstr "+1 zusätzlicher Lebenspunkt, +1 Schaden"
 
 #. [advancement]: id=amla_creep7
 #: Nightmares_of_Meloen/devel/utils/amla_creepers.cfg:253
 #: Nightmares_of_Meloen/utils/amla_creepers.cfg:253
 msgid "Max HP bonus +1, regenerate +8"
-msgstr ""
+msgstr "+1 zusätzlicher Lebenspunkt, Regeneration +8"
 
 #. [advancement]: id=amla_creep_above
 #: Nightmares_of_Meloen/devel/utils/amla_creepers.cfg:334
 #: Nightmares_of_Meloen/utils/amla_creepers.cfg:334
 msgid "Max HP bonus +3"
-msgstr ""
+msgstr "+3 zusätzliche Lebenspunkte"
 
 #. [dummy]: id=weapon_arcane_focus
 #: Nightmares_of_Meloen/devel/utils/arcane_focus.cfg:6
@@ -703,7 +728,7 @@ msgstr ""
 #: Nightmares_of_Meloen/utils/arcane_focus.cfg:8
 #: Nightmares_of_Meloen/utils/arcane_focus.cfg:9
 msgid "arcane focus"
-msgstr ""
+msgstr "aufwühlend"
 
 #. [dummy]: id=weapon_arcane_focus
 #: Nightmares_of_Meloen/devel/utils/arcane_focus.cfg:8
@@ -715,6 +740,9 @@ msgid ""
 "The opposite of arcane resistance is used for damage calculation. Thus, this "
 "attack is more efficient against most humans."
 msgstr ""
+"aufwühlend:\n"
+"Der Gegenwert der Arkan-Resistenz wird angewandt, sodass dieser Angriff "
+"gegen die meisten Menschen effektiver ist."
 
 #: Nightmares_of_Meloen/devel/utils/arcane_focus.cfg:75
 #: Nightmares_of_Meloen/utils/arcane_focus.cfg:71
@@ -723,12 +751,15 @@ msgid ""
 "They perceive the world with more than simply their reason and instinct and "
 "are consequently less affected by this sort of mental attack."
 msgstr ""
+" Viele Wesen in der Welt Wesnoths sind zum Teil magisch. Sie nehmen die Welt "
+"nicht bloß durch Verstand und Instinkt war und sind daher weniger für diese "
+"geistiger Angriffe empfänglich."
 
 #. [leadership]: id=band
 #: Nightmares_of_Meloen/devel/utils/band.cfg:7
 #: Nightmares_of_Meloen/utils/band.cfg:7
 msgid "band insect"
-msgstr ""
+msgstr "Schwarmbildung"
 
 #. [leadership]: id=band
 #: Nightmares_of_Meloen/devel/utils/band.cfg:8
@@ -737,6 +768,9 @@ msgid ""
 "Band Insect:\n"
 "When attacking, the unit gets an additional strike for each insect next to it"
 msgstr ""
+"Schwarmbildung:\n"
+"Wenn diese Einheit angreift, schlägt sie mit jedem Insekt neben ihr ein "
+"weiteres Mal zu"
 
 #. [leadership]: id=DEVEL_horror
 #. [leadership]: id=horror
@@ -747,7 +781,7 @@ msgstr ""
 #: Nightmares_of_Meloen/utils/horror.cfg:79
 #: Nightmares_of_Meloen/utils/horror.cfg:171
 msgid "horror"
-msgstr ""
+msgstr "Grauen"
 
 #. [leadership]: id=DEVEL_horror
 #. [leadership]: id=horror
@@ -767,6 +801,15 @@ msgid ""
 "15% less damage times the difference in their levels + 25%. Non-living units "
 "are not affected and units that are 1 level above do 10% less damage."
 msgstr ""
+"Grauen:\n"
+"Diese Einheit verängstigt lebendige Feindeinheiten in angrenzenden Feldern, "
+"sodass sie schlechter kämpfen.\n"
+"\n"
+"Benachbarte Feindeinheiten verursachen weniger Schaden. Kämpft eine Einheit, "
+"die neben der Einheit mit Grauen steht und ihr feindlich gesonnen ist, "
+"verursacht sie 15% weniger Schaden für jede Stufenunterschied +25%. Nicht "
+"lebendige Einheiten sind nicht davon betroffen und Einheiten, die eine Stufe "
+"höher sind, verursachen 10% weniger Schaden."
 
 #: Nightmares_of_Meloen/devel/utils/horror.cfg:280
 #: Nightmares_of_Meloen/utils/horror.cfg:280
@@ -774,6 +817,8 @@ msgid ""
 " The horror skill of this unit scares enemy units next to it so that they "
 "deal less damage in combat, though this only applies to living units."
 msgstr ""
+" Die Fähigkeit Grauen verängstigt Feinde in ihrer Nähe, sodass diese "
+"schlechter kämpfen, was allerdings nur für lebendige Einheiten funktioniert."
 
 #. [dummy]: id=DEVEL_weapon_special_jinx
 #. [dummy]: id=weapon_special_jinx
@@ -782,7 +827,7 @@ msgstr ""
 #: Nightmares_of_Meloen/utils/jinx.cfg:15
 #: Nightmares_of_Meloen/utils/jinx.cfg:17
 msgid "jinx"
-msgstr ""
+msgstr "Pech"
 
 #. [dummy]: id=DEVEL_weapon_special_jinx
 #: Nightmares_of_Meloen/devel/utils/jinx.cfg:16
@@ -793,32 +838,37 @@ msgid ""
 "terrain until it is regenerating, is cured by a healer or in a village.\n"
 "Does not affect undeads, and the defense value can't go lower than 20%."
 msgstr ""
+"Pech:\n"
+"Die getroffene Einheit erleidet eine Pechsträhne, sodass sie eine um 15% "
+"geringere Verteidigung besitzt, bis der Effekt durch Regeneration, Kurieren "
+"oder ein Dorf behoben wird.\n"
+"Untote sind immun, und die Verteidigung kann nicht unter 20% sinken."
 
 #: Nightmares_of_Meloen/devel/utils/jinx.cfg:67
 #: Nightmares_of_Meloen/devel/utils/jinx.cfg:102
 #: Nightmares_of_Meloen/utils/jinx.cfg:93
 #: Nightmares_of_Meloen/utils/jinx.cfg:143
 msgid "cursed"
-msgstr ""
+msgstr "Pechsträhne"
 
 #. [regenerate]: id=regen_{THAT_MUCH}
 #: Nightmares_of_Meloen/devel/utils/regen.cfg:7
 #: Nightmares_of_Meloen/utils/regen.cfg:7
 msgid "regen+"
-msgstr ""
+msgstr "Regeneration +"
 
 #. [regenerate]: id=regen_{THAT_MUCH}
 #: Nightmares_of_Meloen/devel/utils/regen.cfg:8
 #: Nightmares_of_Meloen/utils/regen.cfg:8
 msgid "Regenerate + "
-msgstr ""
+msgstr "Regeneration + "
 
 #. [terrain_link]: id=DEVEL_terrain_link
 #. [terrain_link]: id=terrain_link
 #: Nightmares_of_Meloen/devel/utils/terrain_link.cfg:7
 #: Nightmares_of_Meloen/utils/terrain_link.cfg:7
 msgid "terrain link"
-msgstr ""
+msgstr "Gestalt des Landes"
 
 #. [terrain_link]: id=DEVEL_terrain_link
 #. [terrain_link]: id=terrain_link
@@ -846,6 +896,25 @@ msgid ""
 "Frost form — from snow based terrain. Low mobility, good resistance except "
 "to fire and impact, can slow enemies."
 msgstr ""
+"Gestalt des Landes:\n"
+"Diese Einheit verwandelt sich je nach dem Gelände, auf das Ihr sie bewegt.\n"
+"\n"
+"Stürmische Gestalt − Ebenen, Burgen, Schluchten und so gut wie alle Dörfer. "
+"Sehr mobile Einheit, verletzlich, schwacher Angriff.\n"
+"\n"
+"Bebende Gestalt − Höhlen, Hügel und Berge. Langsam mit guten Resistenzen.\n"
+"\n"
+"Wuchernde Gestalt − Wälder und Pilzhaine. Langsam, geringe Verteidigung, "
+"Gute Resistenz mit der Ausnahme von Feuer, kann Feinde verlangsamen.\n"
+"\n"
+"Peitschende Gestalt − Sümpfe, Furten, flaches wie tiefes Wasser. Beweglich, "
+"aber nur im Wasser, mittlere bis niedrige Resistenzen.\n"
+"\n"
+"Schleifende Gestalt − sandige Gelände. Beweglich im Sand, mittlere bis "
+"niedrige Resistenzen.\n"
+"\n"
+"Frostige Gestalt − kalte Gelände. Langsam, gute Resistenzen gegen alles "
+"außer Feuer und Wucht, verlangsamen."
 
 #: Nightmares_of_Meloen/devel/utils/terrain_link.cfg:484
 #: Nightmares_of_Meloen/utils/terrain_link.cfg:484
@@ -853,13 +922,15 @@ msgid ""
 " That unit mutates depending on the terrain she is moving to, taking a form "
 "that result in better defense and movement."
 msgstr ""
+" Diese Einheit verwandelt sich abhängig von dem Gelände, auf die sie sich "
+"bewegt, und nimmt eine Gestalt mit besserer Verteidigung und Bewegung an."
 
 #. [upkeep]: id=DEVEL_upkeep_band
 #. [upkeep]: id=upkeep_band
 #: Nightmares_of_Meloen/devel/utils/upkeep_band.cfg:70
 #: Nightmares_of_Meloen/utils/upkeep_band.cfg:6
 msgid "upkeep band"
-msgstr ""
+msgstr "Sold des Schwarmes"
 
 #. [upkeep]: id=DEVEL_upkeep_band
 #. [upkeep]: id=upkeep_band
@@ -871,48 +942,54 @@ msgid ""
 "banding ability under your control. A unit with the banding ability, when "
 "alone, is also considered as a band (of 1 unit)."
 msgstr ""
+"Sold des Schwarmes:\n"
+"Ihr zahlt ein weiteres Goldstück für jeden Großschwarm aus Einheiten mit der "
+"Fähigkeit zur Schwarmbildung, den Ihr besitzt. Eine einzelne schwarmbildende "
+"Einheit gilt auch als Großschwarm (aus einer Einheit)."
 
 #: Nightmares_of_Meloen/devel/utils/upkeep_band.cfg:334
 #: Nightmares_of_Meloen/utils/upkeep_band.cfg:210
 msgid "−1 gold"
-msgstr ""
+msgstr "−1 Gold"
 
 #. [language]
 #: Nightmares_of_Meloen/english.cfg:4
 msgid "type^arcane focus"
-msgstr ""
+msgstr "aufwühlend"
 
 #. [era]: id=aoh_nightmares_of_meloen_{NIGHTMARES_OF_MELOEN_VERSION}
 #: Nightmares_of_Meloen/eras/aoh+nightmares.cfg:5
 msgid "Heroes+Nightmares"
-msgstr ""
+msgstr "Helden+Albträume"
 
 #. [era]: id=nightmares_of_meloen_{NIGHTMARES_OF_MELOEN_VERSION}
 #: Nightmares_of_Meloen/eras/default+nightmares.cfg:5
 msgid "Default+Nightmares"
-msgstr ""
+msgstr "Standard+Albträume"
 
 #. [trait]: id=insect
 #. [trait]: id=nightmare
 #: Nightmares_of_Meloen/traits/trait_insect.cfg:11
 #: Nightmares_of_Meloen/traits/trait_nightmare.cfg:9
 msgid "Immune to drain, poison and plague"
-msgstr ""
+msgstr "Immun gegen Lebensentzug, Gift und Untote Plage"
 
 #. [set_variable]
 #: Nightmares_of_Meloen/traits/trait_unhatched.cfg:186
 msgid "+20% blade and pierce resistance, −20% impact resistance, −5% hitpoints"
 msgstr ""
+"+20% Resistenz gegen Stich und Klinge, -20% Resistenz gegen Wucht, -5% "
+"Lebenspunkte"
 
 #. [set_variable]
 #: Nightmares_of_Meloen/traits/trait_unhatched.cfg:345
 msgid "−20% experience needed for promotion"
-msgstr ""
+msgstr "−20% benötigte Erfahrung"
 
 #. [set_variable]
 #: Nightmares_of_Meloen/traits/trait_unhatched.cfg:394
 msgid "+1 movement, −5% hitpoints"
-msgstr ""
+msgstr "+1 Bewegungspunkt, -5% Lebenspunkte"
 
 #: Nightmares_of_Meloen/units/descriptions/aberrations.cfg:4
 msgid ""
@@ -929,6 +1006,19 @@ msgid ""
 "magic is behind their power, it seems that any creature that crosses their "
 "evil eyes is struck by misfortune."
 msgstr ""
+"Das Schicksal kann sehr tückisch sein, in einem Moment beschenkt es einen, "
+"im nächsten wird es zur Hürde. Als Meloen während eines kurzen Anfalls "
+"äußerster Klarheit das Wissen um den Ursprung der Magie mit der Spitze ihres "
+"Geistes streite, verschmolz sie allen Widrigkeiten zum Trotz mit ihrer "
+"Umgebung. Doch ihre angeborene Unsicherheit führte zu immer größerem "
+"Selbstzweifel, und sie spekulierte, dass Glück alleine diese Geschenisse "
+"bewirkt hatte, nicht ihre Entschlossenheit und Arbeit. Schließlich glaubte "
+"sie, dass das Unglück mit ihrem Leben spielte, sich daran ergötzte, sie in "
+"einen Albtraum zu versetzen.\n"
+"Schwarze Katzen sind normale Waldtiere, die von den finsteren Gedanken der "
+"Meloen in schreckliche Schimären verzerrt wurden. Auch wenn niemand weiß, "
+"welche Magie hinter ihrer Macht steckt, scheint jedes Wesen, auf das ihr "
+"böser Blick fällt, dem Unglück anheimfällt."
 
 #: Nightmares_of_Meloen/units/descriptions/aberrations.cfg:8
 msgid ""
@@ -943,6 +1033,17 @@ msgid ""
 "of their own clumsiness! Fortunately, I have found a way to dispel the "
 "clouds in their minds, and restore their ability to fight.'"
 msgstr ""
+"Weiser Hogene, Auszug aus einem Gespräch mit Leutnant Artingale:\n"
+"»-Mein Herr, ich habe die Natur der Fähigkeiten dieser Bestien in Erfahrung "
+"gebracht. Es gibt keinen Fluch, es ist nur ein Trick.\n"
+"-Was meinst du damit, Hogene? Das entspricht nicht den Tatsachen, sie leiden "
+"eindeutig an einer Pechsträhne. Sieh, wie sie sich beim Kampf abmühen: Sie "
+"scheinen nicht einmal die einfachsten Streiche parieren zu können, sobald "
+"sie diese verdammten Bestien getroffen haben.\n"
+"-Sie befinden sich in einer Art Hypnose. Sie täuschen sich selbst in ihr "
+"Unglück. Die Männer selbst sind für ihre eigene Ungeschicklichkeit "
+"verantwortlich! Zu Glück habe ich einen Weg gefunden, die Nebel in ihren "
+"Geistern zu lichten und ihre Kampffähigkeiten zu erneuern.«"
 
 #: Nightmares_of_Meloen/units/descriptions/aberrations.cfg:14
 msgid ""
@@ -952,6 +1053,11 @@ msgid ""
 "I know my life's a gamble, but in that forest\n"
 "Misfortune made my path cross with my nemesis.'"
 msgstr ""
+"Edler Ordwin, Nemesis:\n"
+"»Nichts als eine schlimme Wund', gegen unsern Geist ein Schlag,\n"
+"der Hoffnung zerschmettert und die Waffen uns streckt.\n"
+"Ich weiß, mein Leben braucht Glück, doch in jenem Forst\n"
+"Ließ mich das Unglück treffen meine Nemesis.«"
 
 #: Nightmares_of_Meloen/units/descriptions/aberrations.cfg:21
 msgid ""
@@ -961,6 +1067,12 @@ msgid ""
 "Watchers were born from this fear and now mentally attack their victims, "
 "turning their complexes into physical sufferings."
 msgstr ""
+"Die ständigen, sich verschärfenden Albträume trieben Meloen in einen "
+"paranoiden Schwachsinn, in dem sie für ihre Missetaten gerichtet zu werden "
+"glaubte. Sie erinnerte sich an ihre Kindheit, als sie Angst davor hatte, "
+"dass Leute sie ansahen. Die Verachtenden Gutachter entstanden aus dieser "
+"Furcht und greifen nun die Geister ihrer Opfer an, indem sie ihre Probleme "
+"in körperliche Leiden umwandeln."
 
 #: Nightmares_of_Meloen/units/descriptions/aberrations.cfg:24
 msgid ""
@@ -973,6 +1085,15 @@ msgid ""
 "aggressive Watchers posess mental attacks that are especially dangerous for "
 "mages.'"
 msgstr ""
+"Silbermagier Norsesch, Arkane Interaktionen - Analyse und Theorien:\n"
+"»Interessanterweise ist die Konzentration, die für das Erreichen bedeutsamer "
+"arkaner Effekte nötig ist, nicht ohne Probleme. Meiner Hypothese zufolge "
+"sind die Kanäle, die wir in unseren Geistern entwickeln, auf bestimmte "
+"Weisen für äußere Kräfte zugänglich. Der Unerbittliche Gutachter, eine "
+"magische Kreatur, die (bei einem großen Risiko für den Suchenden) im "
+"südlichen Wesnoth zu finden ist, unterstützt diese These. Diese großen, "
+"aggressiven Gutachter verfügen über mentale Angriffe, welche für Magie "
+"besonders gefährlich sind.«"
 
 #: Nightmares_of_Meloen/units/descriptions/aberrations.cfg:28
 msgid ""
@@ -983,6 +1104,12 @@ msgid ""
 "dragging him back to the village, the healers could do nothing to save the "
 "wretch.'"
 msgstr ""
+"König Dowrein I., Erinnerungen eines Söldners:\n"
+"»Ich konnte den heißen Blick des Wesens selbst durch meinen Schild fühlen. "
+"Seine Verachtung mir gegenüber schien mich wahrlich zu erdrücken. Den armen "
+"Thornton zu meiner Linken traf die ganze Wucht des Angriffes, und obwohl ich "
+"ihn unter Einsatz meines Lebens ins Dorf schleppte, konnten die Heiler "
+"nichts tun, um dem kümmerlichen Überbleibseln zu helfen.«"
 
 #: Nightmares_of_Meloen/units/descriptions/aberrations.cfg:32
 msgid ""
@@ -991,6 +1118,11 @@ msgid ""
 "breaks the shell with its powerful legs, then its naturally agressive "
 "instinct guides it to complete its hatch by charging into foes."
 msgstr ""
+"Diese garstigen Monster stammen aus der ersten Angst der Meloen: ein "
+"körperlich oder geistig behindertes Kind zu gebären. Noch nicht richtig "
+"ausgeformt, bricht das Unreife Balg mit seinen Beinen durch die Schale "
+"seines Eis, danach leitet sein von Natur aus aggressiver Instinkt es dabei, "
+"sein Schlüpfen dadurch zu beenden, indem es sich auf Gegner wirft."
 
 #: Nightmares_of_Meloen/units/descriptions/aberrations.cfg:35
 msgid ""
@@ -999,6 +1131,10 @@ msgid ""
 "aggressive ones attacked without pause, hurling themselves at us again and "
 "again, battling unto death.'"
 msgstr ""
+"König Dowrein I., Erinnerungen eines Söldners:\n"
+"»Sie waren schon schlimm genug, als sie noch im Ei steckten. Sobald sie "
+"schlüpften, griffen die aggressivsten pausenlos an, warfen sich wieder und "
+"wieder gegen uns, kämpften bis zum Tode.«"
 
 #: Nightmares_of_Meloen/units/descriptions/aberrations.cfg:39
 msgid ""
@@ -1008,6 +1144,11 @@ msgid ""
 "than one occasion the ugly brutes used their speed to get into our rear, "
 "where they did terrible damage to our injured soldiers.'"
 msgstr ""
+"König Dowrein I., Erinnerungen eines Söldners:\n"
+"»Sie waren schon schlimm genug, als sie noch im Ei steckten, Sobald sie "
+"schlüpften, konnten die bösartigsten einen Mann mit einem Schlag aus dem "
+"Sattel werfen. Mehr als einmal rasten uns die garstigen Bestien in den "
+"Rücken, wo sie unseren Verwundeten schreckliche Wunden zufügten.«"
 
 #: Nightmares_of_Meloen/units/descriptions/aberrations.cfg:43
 msgid ""
@@ -1018,6 +1159,12 @@ msgid ""
 "and the beast had raged off down the trail, evidently unconcerned with the "
 "terrible wounds it had taken in return."
 msgstr ""
+"Verwirrt schwankte Artingale über die Lichtung, stieg über die zerbrochenen "
+"Knochen und verstümmelten Glieder, die auf dem Boden verteilt lagen. Die "
+"Kreatur war plötzlich aus dem Untergrund geprescht: Seine Mannen hatten "
+"keine Zeit, sich dagegen zu wappnen. In wenigen Augenblicken wurde ein "
+"Drittel der Kompanie zu Brei zermalmt, und die Bestie stürmte den Pfad "
+"entlang, ohne von seinen schweren Wunden behindert zu werden."
 
 #: Nightmares_of_Meloen/units/descriptions/aberrations.cfg:46
 msgid ""
@@ -1028,6 +1175,14 @@ msgid ""
 "- Well, they kill you honestly, which is more than you can say for most. But "
 "the bloody smears they leave in their wake haunt my dreams.'"
 msgstr ""
+"Auszug aus einem Gespräch zwischen Leutnant Artingale und dem Weisen "
+"Hogene:\n"
+"»- Hogene, ich danke oft den Göttern, dass die  größten Bälger so selten "
+"sind.\n"
+"- Sind sie so viel gefährlicher als die anderen widernatürlichen Bewohner "
+"des Waldes, mein Herr?\n"
+"- Nun, sie töten dich ehrlich, was mehr ist, als man für die meisten sagen "
+"kann. Aber ihre blutigen Spuren verfolgen mich in meinen Träumen.«"
 
 #: Nightmares_of_Meloen/units/descriptions/elementals.cfg:3
 msgid ""
@@ -1042,34 +1197,48 @@ msgid ""
 "These unstable elementals are bits of Panarbori released after a rage "
 "tantrum, with the help of Meloen's power."
 msgstr ""
+"In Selbsthass und Selbstzweifel hegte Meloen starkes Misstrauen gegenüber "
+"ihrer Umgebung. Panarbori, der Naturgeist, der ursprünglich aus der Macht "
+"der Liebe Meloens zum Wald entsprang, wurde durch die Zweifel der Meloen "
+"verwandelt. Er wurde das Gegenteil dessen, was die einstige Silbermagierin "
+"in ihrem Gefährten gesucht hatte: Statt vorsichtig und eine Quelle der "
+"Stabilität zu sein, wurde er impulsiv und gewalttätig. Seine Wutanfälle "
+"entsprachen dem Zorn der Natur selbst und verursachten Naturkatastrophen.\n"
+"\n"
+"Diese unsteten Geister sind Teile Panaboris, freigesetzt nach einem Anfall "
+"von Raserei, mit der Hilfe der Macht Meloens."
 
 #: Nightmares_of_Meloen/units/descriptions/elementals.cfg:8
 msgid ""
 "They are as unpredictable as their father, rushing like small furies from "
 "one battlefield to another."
 msgstr ""
+"Sie sind so unberechenbar wie ihr Vater, hasten wie kleine Furien von einem "
+"Schlachtfeld zum Anderen."
 
 #: Nightmares_of_Meloen/units/descriptions/elementals.cfg:11
 msgid ""
 "Their thorny branches grow wildly in all directions, seeking to strangle any "
 "life they encounter."
 msgstr ""
+"Ihre dornigen Ranken wachsen wild in alle Richtungen, um alles Leben zu "
+"erwürgen, auf das sie treffen."
 
 #: Nightmares_of_Meloen/units/descriptions/elementals.cfg:14
 msgid "The ground shudders as they attack in this form."
-msgstr ""
+msgstr "Der Boden bebt, wenn sie in dieser Form angreifen."
 
 #: Nightmares_of_Meloen/units/descriptions/elementals.cfg:17
 msgid "They engulf foes in the turbulent waters that form them."
-msgstr ""
+msgstr "Sie verschlingen Gegner in den stürmischen Wassern, die sie bilden."
 
 #: Nightmares_of_Meloen/units/descriptions/elementals.cfg:20
 msgid "They blast all they encounter with gouts of sand."
-msgstr ""
+msgstr "Sie schleifen alles mit gnadenlosen Sandstürmen zu Grunde."
 
 #: Nightmares_of_Meloen/units/descriptions/elementals.cfg:23
 msgid "They strike with a cold and biting fury."
-msgstr ""
+msgstr "Sie schlagen zu mit einem kalten und beißenden Zorn."
 
 #: Nightmares_of_Meloen/units/descriptions/elementals.cfg:26
 msgid ""
@@ -1088,6 +1257,21 @@ msgid ""
 "emotion, like a child trapped within the overgrown body of a man, changing "
 "from one wild state to another in response to its environment.'"
 msgstr ""
+"Silbermagier Norsesch, Arkane Interaktionen - Analyse und Theorien:\n"
+"»Wir beschäftigen uns nun mit den Grenzen der Macht dessen, was im "
+"Allgemeinen als Magie bekannt ist… Kontrolle ohne geistige Disziplin wächst "
+"nicht im gleichen Maße bei wachsender Macht. Der kritische Faktor hierbei "
+"scheint ein Gegengewicht zwischen der Menge der transmittierten Energie und "
+"die Effizienz dieser Transmission.\n"
+"[...]\n"
+"Ein Beispiel der Ineffizienz, die mit einem Machtanstieg einhergeht, ist das "
+"Wachstum der Unsteten Geister, Wesen aus de Süden Wesnoths. Im späten "
+"Stadium ihrer Entwicklung werden diese Kreaturen zu Verkörperungen des Zorns "
+"der Natur. Weit davon entfernt, große Kontrolle über ihre stetig zunehmende "
+"Energie auszuüben, wird er Geist zu einer Marionette seiner eigenen sich "
+"überschlagenden Emotionen, wie ein Kind, das im übergroßem Körper eines "
+"Mannes gefangen ist, und wechselt abhängig von seiner Umgebung von einem "
+"wilden Zustand in den Nächsten.«"
 
 #: Nightmares_of_Meloen/units/descriptions/insects.cfg:4
 msgid ""
@@ -1101,6 +1285,15 @@ msgid ""
 "Note: Isolated creepers can do but little harm, while large bands can pose a "
 "threat to any creature."
 msgstr ""
+"Leutnant Artingale:\n"
+"»Diese verkommenen Insektenhorden rotten sich zusammen zu gewaltigen "
+"Schwärmen, um die Lebenden auf sinnlos aggressive Weise zu verheeren. Immer "
+"öfter beschreiben Berichte vom entlegenen Land Bienenwolken, die sich derart "
+"abnorm verhalten. Irgendein Teufelswerk muss dahinterstecken, und ich weiß, "
+"welche unglückliche Armee den Auftrag erhalten wird, es zu untersuchen.«\n"
+"\n"
+"Anmerkung: Einzelne Kriecher können wenig Schaden anrichten, doch große "
+"Horden gefährden auch die stärksten Kreaturen."
 
 #: Nightmares_of_Meloen/units/descriptions/nightmares.cfg:4
 msgid ""
@@ -1111,6 +1304,13 @@ msgid ""
 "The future, veiled in uncertainty, seemed to hold only the blackest of "
 "promises. As Meloen raged at these visions, the Howling Darkness coalesced."
 msgstr ""
+"Meloen fixierte sich auf die Zerbrechlichkeit des Lebens und die Willkür des "
+"Schicksals. Schreckensvisionen befielen sie: ein Säugling atemlos und kalt "
+"in der Wiege, seine schlafenden Eltern nur Ellen entfernt, ein Kind, das in "
+"den Brunnen fiel, es konnte weder schwimmen noch nach Hilfe schreien, eine "
+"Viper lauerte im Blumenbeet. Die Zukunft, von Unsicherheit verschleiert, "
+"schien nur das Dunkelste zu versprechen. Als Meloen in diesem Delirium lag, "
+"formte sich die Heulende Finsternis."
 
 #: Nightmares_of_Meloen/units/descriptions/nightmares.cfg:7
 msgid ""
@@ -1120,6 +1320,12 @@ msgid ""
 "we spied it racing towards us through the trees... there among the darkest "
 "shadows, something blacker yet, like a hole in the night.'"
 msgstr ""
+"König Dowrein I., Erinnerungen eines Söldners:\n"
+"»Der Mond war längst untergegangen, als wir das Geheul erneut hörten, ein "
+"grausiger Klang, der aus allen Richtungen zu kommen schien, um endlosen "
+"Schmerz zu versprechen. Doch dieses Mal erspähten wir, wie es durch die "
+"Bäume auf uns zuraste… dort in den tiefsten Schatten, etwas noch "
+"Schwärzeres, wie ein Loch in der Nacht.«"
 
 #: Nightmares_of_Meloen/units/descriptions/nightmares.cfg:11
 msgid ""
@@ -1131,6 +1337,14 @@ msgid ""
 "screams of its victims. I dropped my useless sword and fled for the river "
 "and its doubtful safety.'"
 msgstr ""
+"König Dowrein I., Erinnerungen eines Söldners:\n"
+"»Obwohl der Morgen schon hätte dämmern müssen, hob sich die Dunkelheit "
+"nicht, noch sollte sie es je wieder für viele meiner Kameraden. Sie senkte "
+"sich auf uns herab wie der Schleier eines entsetzlichen Räubers, schwebte "
+"hinweg über unsere ahnungslose Vorhut und erzielte die perfekte "
+"Überraschung. Durch das grässliche Heulen unseres Gegners waren die "
+"hoffnungslosen Schreie seiner Opfer zu hören. Ich ließ mein nutzloses "
+"Schwert fallen und floh zum Fluss und seiner fraglichen Sicherheit.«"
 
 #: Nightmares_of_Meloen/units/descriptions/nightmares.cfg:15
 msgid ""
@@ -1144,6 +1358,17 @@ msgid ""
 "live long enough to see her unborn child grow. There was little time then, "
 "before spectres of death spread into the forest."
 msgstr ""
+"In ihren Glücksmomenten erfreute sich Meloen am Anblick von Schmetterlingen. "
+"In diesen seltenen Momenten der Versenkung wurde ihr ihre kurzen "
+"Lebensspannen bewusst und sie war sich ihrer eigenen Sterblichkeit zutiefst "
+"bewusst.\n"
+"\n"
+"Während ihrer Schwangerschaft träumte Meloen von einem unheimlichen Geist in "
+"Gestalt eines Schmetterlings, der über ihr und ihrem Kind schwebte. Sie "
+"erkannte den Geist sofort als einen Schergen des Todes selbst, der sie "
+"warnte, dass sie nicht  lange genug leben würde, um ihr ungeborenes Kind "
+"wachsen zu sehen. Wenig später begannen die Todesboten n den Wäldern "
+"aufzutauchen."
 
 #: Nightmares_of_Meloen/units/descriptions/nightmares.cfg:20
 msgid ""
@@ -1160,6 +1385,19 @@ msgid ""
 "them back to that cursed forest, our fear remained the same with each "
 "battle: the fear of losing our minds and souls, and ultimately, our lives.'"
 msgstr ""
+"König Dowrein I., Erinnerungen eines Söldners:\n"
+"»Ich habe diese Szene hundertfach erlebt, wenn diese oder jene "
+"Handelskarawane den Rand der tiefen Wälder entlangzog: die stillen Gespräche "
+"der Fuhrleute, die Soldaten, die mit den Taten des Vortages prahlten, dann "
+"die plötzliche Beunruhigung der Pferde, ihr verängstigtes Wiehern und Um-"
+"sich-schauen. Karren wie Männer hielten an, alle Augen und Ohren suchten "
+"nach dem kleinsten Zeichen. Und dann, der plötzliche, brutale Angriff dieser "
+"dämonischen Wesen.\n"
+"\n"
+"Doch obwohl wir mit der Zeit und hart erkämpfter Erfahrung geschickt darin "
+"wurden, sie in den verfluchten Wald zurückzuschlagen, blieb unsere Furcht in "
+"jede Kampf die Selbe: die Furcht, unseren Verstand und unsere Seelen, und "
+"schlussendlich unser Leben, zu verlieren.«"
 
 #: Nightmares_of_Meloen/units/descriptions/nightmares.cfg:26
 msgid ""
@@ -1169,118 +1407,124 @@ msgid ""
 "Without a complaint in the midst of the battle?\n"
 "Our soul, waiting that instant for itself to display.'"
 msgstr ""
+"Edler Ordwin, Berührung des Phantoms:\n"
+"»Was ist zu sehn in der Nacht ihres Mantels,\n"
+"Was uns fesselt und uns lässt entschlafen\n"
+"Ohne zu klagen mitten in der Schlacht?\n"
+"Unsere Seele, sie wartet, sich zu zeigen.«"
 
 #. [attack]: type=cold
 #: Nightmares_of_Meloen/units/elementals/el_ue_01_unstable_elemental.cfg:412
 #: Nightmares_of_Meloen/units/elementals/el_ue_02_nature_wrath.cfg:412
 msgid "ice breath"
-msgstr ""
+msgstr "Eisiger Atem"
 
 #: Nightmares_of_Meloen/utils/how_to_play.cfg:5
 msgid "Before reading, let other players know so they don't get impatient."
 msgstr ""
+"Verständige andere Spieler vor dem Lesen, damit sie nicht ungeduldig werden."
 
 #. [message]: speaker=narrator
 #: Nightmares_of_Meloen/utils/how_to_play.cfg:12
 msgid "Pick a Topic"
-msgstr ""
+msgstr "Themenwahl:"
 
 #. [message]: speaker=narrator
 #. [option]: speaker=narrator
 #: Nightmares_of_Meloen/utils/how_to_play.cfg:15
 #: Nightmares_of_Meloen/utils/how_to_play.cfg:34
 msgid "How to play Nightmares of Meloen"
-msgstr ""
+msgstr "Ratschläge für die Albträume der Meloen"
 
 #. [message]: speaker=narrator
 #. [option]: speaker=narrator
 #: Nightmares_of_Meloen/utils/how_to_play.cfg:21
 #: Nightmares_of_Meloen/utils/how_to_play.cfg:101
 msgid "How to play against Nightmares of Meloen"
-msgstr ""
+msgstr "Ratschläge gegen die Albträume der Meloen"
 
 #. [message]: speaker=narrator
 #: Nightmares_of_Meloen/utils/how_to_play.cfg:35
 #: Nightmares_of_Meloen/utils/how_to_play.cfg:102
 msgid "You can read this via the browser at the address"
-msgstr ""
+msgstr "Ihr könnt dies im Internet unter folgender Adresse lesen:"
 
 #. [option]: speaker=narrator
 #: Nightmares_of_Meloen/utils/how_to_play.cfg:39
 #: Nightmares_of_Meloen/utils/how_to_play.cfg:106
 msgid "General Strategy"
-msgstr ""
+msgstr "Generelle Strategien"
 
 #. [option]: speaker=narrator
 #: Nightmares_of_Meloen/utils/how_to_play.cfg:46
 msgid "Against Loyalists"
-msgstr ""
+msgstr "Gegen Loyalisten"
 
 #. [option]: speaker=narrator
 #: Nightmares_of_Meloen/utils/how_to_play.cfg:53
 msgid "Against Rebels"
-msgstr ""
+msgstr "Gegen Rebellen"
 
 #. [option]: speaker=narrator
 #: Nightmares_of_Meloen/utils/how_to_play.cfg:60
 msgid "Against Northerners"
-msgstr ""
+msgstr "Gegen Nordmannen"
 
 #. [option]: speaker=narrator
 #: Nightmares_of_Meloen/utils/how_to_play.cfg:67
 msgid "Against Undead"
-msgstr ""
+msgstr "Gegen Untote"
 
 #. [option]: speaker=narrator
 #: Nightmares_of_Meloen/utils/how_to_play.cfg:74
 msgid "Against Knalgans"
-msgstr ""
+msgstr "Gegen Knalga"
 
 #. [option]: speaker=narrator
 #: Nightmares_of_Meloen/utils/how_to_play.cfg:81
 msgid "Against Drakes"
-msgstr ""
+msgstr "Gegen Draken"
 
 #. [option]: speaker=narrator
 #: Nightmares_of_Meloen/utils/how_to_play.cfg:88
 msgid "Against Nightmares"
-msgstr ""
+msgstr "Gegen Alpträume"
 
 #. [option]: speaker=narrator
 #: Nightmares_of_Meloen/utils/how_to_play.cfg:113
 msgid "With Loyalists"
-msgstr ""
+msgstr "Mit Loyalisten"
 
 #. [option]: speaker=narrator
 #: Nightmares_of_Meloen/utils/how_to_play.cfg:120
 msgid "With Rebels"
-msgstr ""
+msgstr "Mit Rebellen"
 
 #. [option]: speaker=narrator
 #: Nightmares_of_Meloen/utils/how_to_play.cfg:127
 msgid "With Northeners"
-msgstr ""
+msgstr "Mit Nordmannen"
 
 #. [option]: speaker=narrator
 #: Nightmares_of_Meloen/utils/how_to_play.cfg:134
 msgid "With Undead"
-msgstr ""
+msgstr "Mit Untoten"
 
 #. [option]: speaker=narrator
 #: Nightmares_of_Meloen/utils/how_to_play.cfg:141
 msgid "With Knalgans"
-msgstr ""
+msgstr "Mit Knalga"
 
 #. [option]: speaker=narrator
 #: Nightmares_of_Meloen/utils/how_to_play.cfg:148
 msgid "With Drakes"
-msgstr ""
+msgstr "Mit Draken"
 
 #. [dummy]: id=weapon_special_jinx
 #: Nightmares_of_Meloen/utils/jinx.cfg:16
 #: Nightmares_of_Meloen/utils/jinx.cfg:18
 msgid "female^jinx"
-msgstr ""
+msgstr "Pech"
 
 #. [dummy]: id=weapon_special_jinx
 #: Nightmares_of_Meloen/utils/jinx.cfg:19
@@ -1291,19 +1535,35 @@ msgid ""
 "terrain until it is cured by a healer or in a village.\n"
 "Does not affect undeads, and the defense value can't go lower than 10%."
 msgstr ""
+"Pech:\n"
+"Die getroffene Einheit erleidet eine Pechsträhne, sodass sie eine um 15% "
+"geringere Verteidigung besitzt, bis der Effekt durch Regeneration, Kurieren "
+"oder ein Dorf behoben wird.\n"
+"Untote sind immun, und die Verteidigung kann nicht unter 10% sinken."
 
 #: Nightmares_of_Meloen/utils/jinx.cfg:45
 msgid ""
 "cursed: This unit is cursed. It unit gets a 15% defense penalty on every "
 "terrain."
 msgstr ""
+"Pechsträhne: Diese Einheit wurde mit einer Pechsträhne belegt und verfügt "
+"überall eine um 15% geringere Verteidigung."
 
 #: Nightmares_of_Meloen/utils/jinx.cfg:100
 #: Nightmares_of_Meloen/utils/jinx.cfg:150
 msgid "female^cursed"
-msgstr ""
+msgstr "Pechsträhne"
 
 #. [set_menu_item]: id=NoM_utilities
 #: Nightmares_of_Meloen/utils/utility_menu.cfg:10
 msgid "How to play"
-msgstr ""
+msgstr "Ratschläge"
+
+#~ msgid "Spiteful Watcher Leader"
+#~ msgstr "Unerbittlicher Gutachter-Anführer"
+
+#~ msgid "Rash One Leader"
+#~ msgstr "Hitzbalg-Anführer"
+
+#~ msgid "Soul Snatcher Leader"
+#~ msgstr "Seelenräuber"
